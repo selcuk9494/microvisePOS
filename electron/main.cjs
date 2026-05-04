@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-require-imports */
 const { app, BrowserWindow, dialog } = require("electron");
-const { spawn, fork } = require("node:child_process");
+const { spawn } = require("node:child_process");
 const path = require("node:path");
 const fs = require("node:fs");
 const http = require("node:http");
@@ -189,7 +189,6 @@ function resolveStandaloneServerPath() {
 
   const candidates = [
     path.join(process.resourcesPath, "app.asar.unpacked", ".next", "standalone", "server.js"),
-    path.join(process.resourcesPath, "app.asar", ".next", "standalone", "server.js"),
     path.join(app.getAppPath(), ".next", "standalone", "server.js"),
   ];
 
@@ -213,13 +212,19 @@ function startNextServerIfNeeded() {
   }
 
   const cwd = path.dirname(serverPath);
+  if (!fs.existsSync(cwd)) {
+    throw new Error(`Next standalone klasoru bulunamadi: ${cwd}`);
+  }
+
   log(`Next standalone baslatiliyor: ${serverPath}`);
 
-  nextServerProcess = fork(serverPath, [], {
+  nextServerProcess = spawn(process.execPath, [serverPath], {
     cwd,
-    silent: true,
+    windowsHide: true,
+    stdio: "pipe",
     env: {
       ...process.env,
+      ELECTRON_RUN_AS_NODE: "1",
       NODE_ENV: "production",
       PORT: String(APP_PORT),
       HOSTNAME: "127.0.0.1",
@@ -366,4 +371,8 @@ app.on("activate", async () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     await createWindow();
   }
+});
+
+process.on("uncaughtException", (error) => {
+  log(`Uncaught exception: ${error?.message ?? String(error)}`);
 });
