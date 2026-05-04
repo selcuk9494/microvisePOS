@@ -40,6 +40,10 @@
     "appId": "com.microvise.pos",
     "productName": "Microvise POS",
     "asar": true,
+    "asarUnpack": [
+      ".next/standalone/**",
+      ".next/static/**"
+    ],
     "directories": {
       "output": "dist-electron"
     },
