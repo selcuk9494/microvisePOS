@@ -1,0 +1,75 @@
+{
+  "name": "micpos",
+  "version": "0.1.0",
+  "private": true,
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "desktop:dev": "concurrently -k \"npm run dev\" \"wait-on http://localhost:3000 && electron ./electron/main.cjs\"",
+    "bridge:publish:win": "dotnet publish -c Release -r win-x64 --self-contained true -o ./integrations/ingenico-bridge/MicPOS.IngenicoBridge/publish ./integrations/ingenico-bridge/MicPOS.IngenicoBridge/MicPOS.IngenicoBridge.csproj && node ./electron/copy-ingenico-dll.cjs",
+    "desktop:build": "npm run bridge:publish:win && npm run build && electron-builder --win nsis --x64",
+    "desktop:build:dir": "npm run bridge:publish:win && npm run build && electron-builder --win dir --x64"
+  },
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "better-sqlite3": "^11.10.0",
+    "electron-updater": "^6.8.3",
+    "next": "15.3.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5",
+    "wait-on": "^8.0.1"
+  },
+  "build": {
+    "appId": "com.microvise.pos",
+    "productName": "Microvise POS",
+    "asar": true,
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "electron/**",
+      ".next/standalone/**",
+      ".next/static/**",
+      "public/**",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "integrations/ingenico-bridge/MicPOS.IngenicoBridge/publish",
+        "to": "bridge",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "selcuk9494",
+        "repo": "microvisePOS",
+        "releaseType": "release"
+      }
+    ],
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

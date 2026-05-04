@@ -1,0 +1,23 @@
+diff a/Simulator/C#/GmpSampleSim/PaymentAppForm.Designer.cs b/Simulator/C#/GmpSampleSim/PaymentAppForm.Designer.cs	(rejected hunks)
+@@ -66,6 +66,21 @@
+              this.m_chkBoxMecrhantSlipSoftCopy.Text = "Merchant Slip Soft Copy";
+              this.m_chkBoxMecrhantSlipSoftCopy.UseVisualStyleBackColor = true;
+              // 
+++<<<<<<< Updated upstream
+++=======
++             // m_chkBoxNotPrintMecrhantSlip
++             // 
++             this.m_chkBoxNotPrintMecrhantSlip.AutoSize = true;
++             this.m_chkBoxNotPrintMecrhantSlip.Enabled = false;
++             this.m_chkBoxNotPrintMecrhantSlip.Location = new System.Drawing.Point(12, 227);
++             this.m_chkBoxNotPrintMecrhantSlip.Margin = new System.Windows.Forms.Padding(2);
++             this.m_chkBoxNotPrintMecrhantSlip.Name = "m_chkBoxNotPrintMecrhantSlip";
++             this.m_chkBoxNotPrintMecrhantSlip.Size = new System.Drawing.Size(135, 17);
++             this.m_chkBoxNotPrintMecrhantSlip.TabIndex = 140;
++             this.m_chkBoxNotPrintMecrhantSlip.Text = "Not Print Merchant Slip";
++             this.m_chkBoxNotPrintMecrhantSlip.UseVisualStyleBackColor = true;
++             // 
+++>>>>>>> Stashed changes
+              // PaymentAppForm
+              // 
+              this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

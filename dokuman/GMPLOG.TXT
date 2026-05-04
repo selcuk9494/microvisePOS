@@ -1,0 +1,664 @@
+[            ] [            ] [2102041041] [14:32:03:781] [GENERAL ] XML Path : 
+[            ] [            ] [2102041041] [14:32:03:791] [GENERAL ] IsCheckStructVersion : TRUE
+[            ] [            ] [2102041041] [14:32:03:801] [GENERAL ] LogFileSize : 5000000
+[            ] [            ] [2102041041] [14:32:03:811] [GENERAL ] LogPath : 
+[            ] [            ] [2102041041] [14:32:03:831] [GENERAL ] Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [14:32:03:841] [GENERAL ] Interface : ID=COM1 (Default=TRUE)
+[            ] [            ] [2102041041] [14:32:03:861] [GENERAL ] Interface Data = RetryCounter:3, IpRetryCount:3, AckTimeOut:3000, CommTimeOut:90000, InterCharacterTimeOut:100, PortName:\\.\COM15, BaudRate:115200, ByteSize:8, fParity:0, Parity:0, StopBit:0, IsTcpConnection:TRUE, IP:192.168.2.13, Port:7500, 
+[            ] [            ] [2102041041] [14:32:03:912] [GENERAL ] Interface Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [14:32:03:912] [FUNCTION] Version = 2102041041
+[            ] [            ] [2102041041] [14:32:03:952] [FUNCTION] >>>>> FP3_GetInterfaceHandleList(TO : 0)
+[            ] [            ] [2102041041] [14:32:03:962] [FUNCTION] <<<<< FP3_GetInterfaceHandleList (return:1-0x00000001:TRAN_RESULT_NOT_ALLOWED [1]:Ýþleme Ýzin Verilmedi. [1])
+[        COM1] [            ] [2102041041] [14:32:03:972] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:03:972] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:07:235] [FUNCTION] >>>>> Json_FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:07:245] [FUNCTION] >>>>> FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:07:245] [FUNCTION] <<<<< FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:07:255] [JSon    ] ST_INTERFACE_XML_DATA TO JSON START >>>> Max=50000
+[            ] [            ] [2102041041] [14:32:07:255] [JSon    ] ST_INTERFACE_XML_DATA TO JSON END <<<<<<
+[            ] [            ] [2102041041] [14:32:07:255] [FUNCTION] <<<<< Json_FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [14:32:07:875] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:07:875] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [14:32:12:809] [FUNCTION] >>>>> Json_FP3_Echo(TO : 10000) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:12:809] [FUNCTION] >>>>> FP3_Echo(TO : 10000) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:12:809] [FUNCTION] >>>>> SendToOkc(TO : 10000)
+[        COM1] [            ] [2102041041] [14:32:12:819] [FUNCTION] >>>>> ExchangeEcrMessage(TO : 10000)
+[        COM1] [            ] [2102041041] [14:32:12:819] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [14:32:12:819] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [14:32:12:819] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [            ] [2102041041] [14:32:12:819] [COMM    ] Socket Opened.
+[        COM1] [            ] [2102041041] [14:32:12:829] [COMM    ] Socket Connected
+[        COM1] [            ] [2102041041] [14:32:12:940] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [14:32:12:940] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [14:32:12:940] [COMM    ] Sending : (Size = 114) [LineByteCount:16]
+                                                                     00 6F 00 00 00 00 00 00 00 00 00 00 00 00 FF 8A .o..............
+                                                                     64 5F DF EF 13 02 00 03 DF 02 1B DF 82 08 03 00 d_..............
+                                                                     00 00 DF 82 09 03 26 04 13 DF 82 0A 03 14 32 12 ......&.......2.
+                                                                     DF EF 13 02 00 03 DF 6F 38 DF EF 04 04 00 00 00 .......o8.......
+                                                                     00 DF EF 0E 08 00 00 00 00 00 00 00 00 DF EF 0F ................
+                                                                     20 20 EA 13 D0 FA 7F 00 00 60 CC BF 00 00 00 00 ........`......
+                                                                     00 C0 DB 0E D0 FA 7F 00 00 CC 06 00 00 00 00 00 ...............
+                                                                     00 5C                                           .\              
+[        COM1] [            ] [2102041041] [14:32:12:949] [COMM    ] Waiting Response... (TO = 10000)
+[        COM1] [            ] [2102041041] [14:32:12:949] [COMM    ] Receive Waiting : Len = 2 (TO=10000)
+[        COM1] [            ] [2102041041] [14:32:13:200] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     00 B6                                           ..              
+[        COM1] [            ] [2102041041] [14:32:13:240] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:10000
+[        COM1] [            ] [2102041041] [14:32:13:240] [COMM    ] Receive Buffer Len:2
+[        COM1] [            ] [2102041041] [14:32:13:249] [COMM    ] Expected Data Len 182 bytes
+[        COM1] [            ] [2102041041] [14:32:13:249] [COMM    ] Receive Waiting : Len = 183 (TO=10000)
+[        COM1] [            ] [2102041041] [14:32:13:249] [COMM    ] Reading :: (Size = 183) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 64 81 2C52126162....d.
+                                                                     A5 DF C1 0C 10 32 43 35 32 31 32 36 31 36 32 20 .....2C52126162.
+                                                                     20 20 20 20 20 DF 02 3D DF 82 08 03 00 00 00 DF .......=........
+                                                                     82 09 03 26 04 13 DF 82 0A 03 14 32 11 DF EF 14 ...&.......2....
+                                                                     0A 32 31 37 31 31 32 32 35 37 4B DF EF 0B 0A 32 .217112257K....2
+                                                                     30 30 31 30 31 30 30 30 30 DF EF 13 02 00 03 DF 001010000.......
+                                                                     EF A5 02 01 00 DF EF 06 02 00 00 DF 6F 48 DF EF ............oH..
+                                                                     0E 08 75 27 56 8D C5 5F 68 17 DF EF 04 04 1D 00 ..u'V.._h.......
+                                                                     00 00 DF EF 10 02 00 30 DF EF A3 01 01 DF ED 06 .......0........
+                                                                     02 90 03 DF ED 08 02 01 00 DF ED 07 02 02 00 DF ................
+                                                                     ED 39 01 02 DF ED 3A 06 50 41 52 49 59 41 DF ED .9....:.PARIYA..
+                                                                     3C 04 00 00 00 00 D9                            <......         
+[        COM1] [            ] [2102041041] [14:32:13:259] [COMM    ] Waiting Len:183, RVC Len:183: TimeOunt:10000
+[        COM1] [            ] [2102041041] [14:32:13:259] [COMM    ] Receive Buffer Len:183
+[        COM1] [            ] [2102041041] [14:32:13:259] [COMM    ] 182 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:13:259] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:13:259] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:13:259] [FUNCTION] <<<<< ExchangeEcrMessage (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:13:259] [FUNCTION] <<<<< SendToOkc (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:13:269] [FUNCTION] <<<<< FP3_Echo (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:13:269] [JSon    ] ECHO TO JSON START >>>> Max=200000
+[        COM1] [  2C52126162] [2102041041] [14:32:13:269] [JSon    ] ECHO TO JSON END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:13:269] [FUNCTION] <<<<< Json_FP3_Echo (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [FUNCTION] >>>>> Json_FP3_StartPairingInit(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [JSon    ] JSON TO PAIR START >>>>
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [JSon    ] In_ProcOrderNum Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [JSon    ] In_ProcDate Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [JSon    ] In_ProcTime Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [JSon    ] In_DeviceBrand Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:379] [JSon    ] In_DeviceModel Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:389] [JSon    ] In_DeviceSerialNum Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:389] [JSon    ] In_DeviceEcrRegisterNo Not Found
+[        COM1] [  2C52126162] [2102041041] [14:32:13:389] [JSon    ] JSON TO PAIR END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:13:389] [FUNCTION] >>>>> FP3_GMP_StartPairingInit(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [14:32:13:389] [GENERAL ] EXE PATH : \\Mac\Home\Desktop\Ingenico\x64\GmpSampleSim.exe
+[        COM1] [            ] [2102041041] [14:32:13:389] [GENERAL ] hDll:9F800000
+[        COM1] [            ] [2102041041] [14:32:13:389] [GENERAL ] DLL PATH : \\Mac\Home\Desktop\Ingenico\x64\GmpSmartDLL.dll
+[        COM1] [            ] [2102041041] [14:32:13:440] [GENERAL ] MCHACD :: (Size = 32) [LineByteCount:16]
+                                                                     A0 CB C3 34 27 CD 2E 7D 31 6D D2 28 3B 3B 40 5A ...4'..}1m.(;;@Z
+                                                                     35 3C E1 61 A1 D3 AB 0D 60 28 40 7D 40 55 FC 13 5<.a....`(@}@U..
+[        COM1] [            ] [2102041041] [14:32:13:449] [GENERAL ] INIT MESAJI  >>
+[        COM1] [            ] [2102041041] [14:32:13:449] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [14:32:13:449] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [14:32:13:449] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [            ] [2102041041] [14:32:13:449] [COMM    ] Socket Opened.
+[        COM1] [            ] [2102041041] [14:32:13:459] [COMM    ] Socket Connected
+[        COM1] [            ] [2102041041] [14:32:13:569] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [14:32:13:569] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [14:32:13:569] [GENERAL ] Before SendToPoS. Len :
+[        COM1] [            ] [2102041041] [14:32:13:569] [COMM    ] Sending : (Size = 117) [LineByteCount:16]
+                                                                     00 72 00 00 00 00 00 00 00 00 00 00 00 00 FF 8A .r..............
+                                                                     60 62 DF 02 15 DF 82 08 03 00 00 01 DF 82 09 03 `b..............
+                                                                     26 04 13 DF 82 0A 03 14 32 13 DF 41 36 DF C1 07 &.......2..A6...
+                                                                     08 4D 4E 47 45 4E 49 43 4F DF C1 08 06 49 57 45 .MNGENICO....IWE
+                                                                     32 38 30 DF C1 09 08 31 32 33 34 34 35 36 37 DF 280....12344567.
+                                                                     C1 0D 10 A7 2F CE 7A 4F F7 79 AF 49 7C CF 43 0F ..../.zO.y.I|.C.
+                                                                     E3 AE A6 DF 6F 0E DF EF 0B 0A 32 31 30 32 30 34 ....o.....210204
+                                                                     31 30 34 31 B4                                  1041.           
+[        COM1] [            ] [2102041041] [14:32:13:579] [GENERAL ] SendToPosRetCode :  0
+[        COM1] [            ] [2102041041] [14:32:13:579] [COMM    ] Waiting Response... (TO = 90000)
+[        COM1] [            ] [2102041041] [14:32:13:579] [COMM    ] Receive Waiting : Len = 2 (TO=90000)
+[        COM1] [            ] [2102041041] [14:32:13:790] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     01 BC                                           ..              
+[        COM1] [            ] [2102041041] [14:32:13:809] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:90000
+[        COM1] [            ] [2102041041] [14:32:13:809] [COMM    ] Receive Buffer Len:2
+[        COM1] [            ] [2102041041] [14:32:13:809] [COMM    ] Expected Data Len 444 bytes
+[        COM1] [            ] [2102041041] [14:32:13:809] [COMM    ] Receive Waiting : Len = 445 (TO=90000)
+[        COM1] [            ] [2102041041] [14:32:13:809] [COMM    ] Reading :: (Size = 445) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 60 82 2C52126162....`.
+                                                                     01 AA DF 02 15 DF 82 08 03 00 00 01 DF 82 09 03 ................
+                                                                     26 04 13 DF 82 0A 03 14 32 11 DF 41 58 DF C1 0A &.......2..AX...
+                                                                     14 49 4E 47 45 4E 49 43 4F 20 20 20 20 20 20 20 .INGENICO.......
+                                                                     20 20 20 20 20 DF C1 0B 14 54 45 42 33 33 37 20 .........TEB337.
+                                                                     20 20 20 20 20 20 20 20 20 20 20 20 20 DF C1 0C ................
+                                                                     10 32 43 35 32 31 32 36 31 36 32 20 20 20 20 20 .2C52126162.....
+                                                                     20 DF C1 0E 10 73 54 04 21 66 33 10 04 24 67 03 .....sT.!f3..$g.
+                                                                     22 62 63 42 77 DF 6F 82 01 32 DF EF 14 0A 32 31 "bcBw.o..2....21
+                                                                     37 31 31 32 32 35 37 4B DF EF 0B 0A 32 30 30 31 7112257K....2001
+                                                                     30 31 30 30 30 30 DF EF 0C 82 01 00 FF FF FF FF 010000..........
+                                                                     FF FF FF FF C9 0F DA A2 21 68 C2 34 C4 C6 62 8B ........!h.4..b.
+                                                                     80 DC 1C D1 29 02 4E 08 8A 67 CC 74 02 0B BE A6 ....).N..g.t....
+                                                                     3B 13 9B 22 51 4A 08 79 8E 34 04 DD EF 95 19 B3 ;.."QJ.y.4......
+                                                                     CD 3A 43 1B 30 2B 0A 6D F2 5F 14 37 4F E1 35 6D .:C.0+.m._.7O.5m
+                                                                     6D 51 C2 45 E4 85 B5 76 62 5E 7E C6 F4 4C 42 E9 mQ.E...vb^~..LB.
+                                                                     A6 37 ED 6B 0B FF 5C B6 F4 06 B7 ED EE 38 6B FB .7.k..\......8k.
+                                                                     5A 89 9F A5 AE 9F 24 11 7C 4B 1F E6 49 28 66 51 Z.....$.|K..I(fQ
+                                                                     EC E4 5B 3D C2 00 7C B8 A1 63 BF 05 98 DA 48 36 ..[=..|..c....H6
+                                                                     1C 55 D3 9A 69 16 3F A8 FD 24 CF 5F 83 65 5D 23 .U..i.?..$._.e]#
+                                                                     DC A3 AD 96 1C 62 F3 56 20 85 52 BB 9E D5 29 07 .....b.V..R...).
+                                                                     70 96 96 6D 67 0C 35 4E 4A BC 98 04 F1 74 6C 08 p..mg.5NJ....tl.
+                                                                     CA 18 21 7C 32 90 5E 46 2E 36 CE 3B E3 9E 77 2C ..!|2.^F.6.;..w,
+                                                                     18 0E 86 03 9B 27 83 A2 EC 07 A2 8F B5 C5 5D F0 .....'........].
+                                                                     6F 4C 52 C9 DE 2B CB F6 95 58 17 18 39 95 49 7C oLR..+...X..9.I|
+                                                                     EA 95 6A E5 15 D2 26 18 98 FA 05 10 15 72 8E 5A ..j...&......r.Z
+                                                                     8A AC AA 68 FF FF FF FF FF FF FF FF DF EF 0D 01 ...h............
+                                                                     02 DF EF 06 02 30 30 DF EF 09 01 01 94          .....00......   
+[        COM1] [            ] [2102041041] [14:32:13:849] [COMM    ] Waiting Len:445, RVC Len:445: TimeOunt:90000
+[        COM1] [            ] [2102041041] [14:32:13:849] [COMM    ] Receive Buffer Len:445
+[        COM1] [            ] [2102041041] [14:32:13:849] [COMM    ] 444 bytes data copied
+[        COM1] [            ] [2102041041] [14:32:13:859] [GENERAL ] Receive Data RetCode : 0
+[        COM1] [            ] [2102041041] [14:32:13:859] [COMM    ] Socket Closed.
+[        COM1] [            ] [2102041041] [14:32:13:859] [GENERAL ] INIT Port Closed
+[        COM1] [  2C52126162] [2102041041] [14:32:13:859] [GENERAL ] INIT ERROR CODE  (0xDFEF06)>>: (Size = 2) [LineByteCount:16]
+                                                                     30 30                                           00              
+[        COM1] [  2C52126162] [2102041041] [14:32:13:859] [GENERAL ] CERTIFICATE VERIFICATION STARTED ( 1 )....  >>
+[        COM1] [  2C52126162] [2102041041] [14:32:13:859] [GENERAL ] CERTIFICATE VERIFIED....  >>
+[        COM1] [  2C52126162] [2102041041] [14:32:13:989] [GENERAL ] KEYREQ  MESAJI  >>
+[        COM1] [  2C52126162] [2102041041] [14:32:13:989] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:13:999] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:13:999] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:13:999] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:13:999] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:14:119] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:14:119] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:14:119] [GENERAL ] Before SendToPoS. Len :
+[        COM1] [  2C52126162] [2102041041] [14:32:14:140] [COMM    ] Sending : (Size = 378) [LineByteCount:16]
+                                                                     01 77 32 43 35 32 31 32 36 31 36 32 00 00 FF 8A .w2C52126162....
+                                                                     62 82 01 65 DF 02 15 DF 82 08 03 00 00 02 DF 82 b..e............
+                                                                     09 03 26 04 13 DF 82 0A 03 14 32 13 DF 41 3A DF ..&.......2..A:.
+                                                                     C1 07 08 4D 4E 47 45 4E 49 43 4F DF C1 08 06 49 ...MNGENICO....I
+                                                                     57 45 32 38 30 DF C1 09 08 31 32 33 34 34 35 36 WE280....1234456
+                                                                     37 DF C1 0A 00 DF C1 0B 00 DF C1 0C 0C 32 43 35 7............2C5
+                                                                     32 31 32 36 31 36 32 00 00 DF 6F 82 01 0B DF EF 2126162...o.....
+                                                                     03 82 01 00 54 18 31 85 39 5D 4E 71 DF B5 E8 F8 ....T.1.9]Nq....
+                                                                     53 6B 3A 00 4B 89 FE 40 48 35 F0 E0 1C 4D BF 6D Sk:.K..@H5...M.m
+                                                                     B2 D9 A2 40 3F 6B 3B 64 A0 0F 2B 60 07 F1 61 81 ...@?k;d..+`..a.
+                                                                     81 15 0D B7 D6 D3 50 68 6E DE 2B 3A F9 6E 8D E4 ......Phn.+:.n..
+                                                                     65 6C 4B C1 6C D5 4D B0 C2 16 20 DA AC 72 3A 7E elK.l.M......r:~
+                                                                     4F 9A 72 BA F8 63 F4 E7 70 59 32 61 EB EE 8D B5 O.r..c..pY2a....
+                                                                     D1 76 2A 34 D0 E3 62 B6 BF E1 6A C4 D7 EC 33 EB .v*4..b...j...3.
+                                                                     14 B9 FC C5 27 CC EF 01 B2 E1 10 9A D5 81 96 17 ....'...........
+                                                                     E7 74 F9 B9 D4 48 61 83 F3 22 B1 B2 D9 7E 70 2C .t...Ha.."...~p,
+                                                                     D5 0F 51 A5 59 65 A7 F5 1E 6C 29 B4 8E 14 C3 68 ..Q.Ye...l)....h
+                                                                     76 31 5C E7 80 4A F5 72 64 E6 CE E1 0A B1 A3 87 v1\..J.rd.......
+                                                                     03 54 C3 95 29 FA 5D DC 23 3A 89 B9 3F 48 83 96 .T..).].#:..?H..
+                                                                     16 60 CF 38 23 0B 6B B4 1E 33 FA 8E B1 58 1F DE .`.8#.k..3...X..
+                                                                     4A 56 AA 2D 58 FA 4D 3F 17 3E AA 85 15 31 FD 72 JV.-X.M?.>...1.r
+                                                                     78 96 1D AA F0 4C 64 CC CE 5E FB DA B8 A3 B1 53 x....Ld..^.....S
+                                                                     74 98 DC 32 4D 93 42 EE 09 7B 96 C3 C0 26 7D 8C t..2M.B..{...&}.
+                                                                     D4 D8 2F 81 DF EF 09 01 01 92                   ../.......      
+[        COM1] [  2C52126162] [2102041041] [14:32:14:159] [GENERAL ] SendToPosRetCode :  0
+[        COM1] [  2C52126162] [2102041041] [14:32:14:159] [COMM    ] Waiting Response... (TO = 30000)
+[        COM1] [  2C52126162] [2102041041] [14:32:14:169] [COMM    ] Receive Waiting : Len = 2 (TO=30000)
+[        COM1] [  2C52126162] [2102041041] [14:32:15:620] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     02 46                                           .F              
+[        COM1] [  2C52126162] [2102041041] [14:32:15:629] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:30000
+[        COM1] [  2C52126162] [2102041041] [14:32:15:639] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:15:639] [COMM    ] Expected Data Len 582 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:15:639] [COMM    ] Receive Waiting : Len = 583 (TO=30000)
+[        COM1] [  2C52126162] [2102041041] [14:32:15:639] [COMM    ] Reading :: (Size = 583) [LineByteCount:32]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 62 82 02 34 DF 02 15 DF 82 08 03 00 00 02 DF 82 09 03 2C52126162....b..4..............
+                                                                     26 04 13 DF 82 0A 03 14 32 13 DF 6F 82 02 17 DF EF 03 82 01 00 63 D8 BB 73 3A 29 8B EC 2A 7B CB &.......2..o.........c..s:)..*{.
+                                                                     6B 35 C9 7C 23 5C B3 23 34 9A 34 A7 80 76 B3 10 E5 00 B2 28 FD 55 20 61 AE 0A 8A F4 77 E1 50 2E k5.|#\.#4.4..v.....(.U.a....w.P.
+                                                                     2B 7A F5 88 2A 33 DE F4 2B 81 F1 A9 3D E4 FA 9E 35 DA A3 EB 24 2C FD 89 76 5A 03 25 C9 6A 4B 12 +z..*3..+...=...5...$,..vZ.%.jK.
+                                                                     E0 F6 33 74 58 3E 09 36 E3 98 04 76 95 62 F4 26 C6 E7 41 CE 67 A8 B5 62 2A E7 09 36 AB 44 92 54 ..3tX>.6...v.b.&..A.g..b*..6.D.T
+                                                                     14 1F E7 79 87 7A 28 72 6E 18 37 8C 4F CF D2 1B 19 F3 CF 36 AA 33 93 10 95 60 33 54 E3 A7 61 7A ...y.z(rn.7.O......6.3...`3T..az
+                                                                     20 26 88 49 06 59 BA 08 48 FC A0 E4 47 40 F6 CE 22 BD 5D A2 4E 87 A3 ED BA 47 EC BA AA D5 04 55 .&.I.Y..H...G@..".].N....G.....U
+                                                                     A2 40 82 D6 32 1B 3C 44 CA 9F 53 F9 83 D2 2B D0 60 6A 32 6C 1B C1 37 65 D3 2A DE 0E BB 79 D4 99 .@..2.<D..S...+.`j2l..7e.*...y..
+                                                                     40 B7 52 DD C6 DD D3 F2 7C F0 0D 18 25 05 6A 39 69 70 F1 98 DC 63 59 24 21 E5 4D 8B 40 A2 97 D1 @.R.....|...%.j9ip...cY$!.M.@...
+                                                                     97 C7 1D 78 A8 9E 6B 1D 01 94 4F D0 7E 9F 1E 14 19 C8 22 86 AE DF EF 06 02 30 30 DF EF 09 01 01 ...x..k...O.~....."......00.....
+                                                                     DF EF 0A 82 01 00 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................................
+                                                                     FF FF FF FF FF FF C0                                                                            .......                         
+[        COM1] [  2C52126162] [2102041041] [14:32:15:669] [COMM    ] Waiting Len:583, RVC Len:583: TimeOunt:30000
+[        COM1] [  2C52126162] [2102041041] [14:32:15:669] [COMM    ] Receive Buffer Len:583
+[        COM1] [  2C52126162] [2102041041] [14:32:15:679] [COMM    ] 582 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:15:679] [GENERAL ] Receive Data RetCode : 0
+[        COM1] [  2C52126162] [2102041041] [14:32:15:679] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:15:679] [GENERAL ] INIT Port Closed
+[        COM1] [  2C52126162] [2102041041] [14:32:15:679] [GENERAL ] KEYREQ ERROR CODE  >>: (Size = 2) [LineByteCount:16]
+                                                                     30 30                                           00              
+[        COM1] [  2C52126162] [2102041041] [14:32:15:810] [GENERAL ] CLOSE  MESAJI  >>
+[        COM1] [  2C52126162] [2102041041] [14:32:15:810] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:15:810] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:15:810] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:15:819] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:15:819] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:15:939] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:15:939] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:15:939] [GENERAL ] Before SendToPoS. Len :
+[        COM1] [  2C52126162] [2102041041] [14:32:15:939] [COMM    ] Sending : (Size = 149) [LineByteCount:16]
+                                                                     00 92 32 43 35 32 31 32 36 31 36 32 00 00 FF 8A ..2C52126162....
+                                                                     63 81 81 DF 02 15 DF 82 08 03 00 00 03 DF 82 09 c...............
+                                                                     03 26 04 13 DF 82 0A 03 14 32 15 DF 41 3A DF C1 .&.......2..A:..
+                                                                     07 08 4D 4E 47 45 4E 49 43 4F DF C1 08 06 49 57 ..MNGENICO....IW
+                                                                     45 32 38 30 DF C1 09 08 31 32 33 34 34 35 36 37 E280....12344567
+                                                                     DF C1 0A 00 DF C1 0B 00 DF C1 0C 0C 32 43 35 32 ............2C52
+                                                                     31 32 36 31 36 32 00 00 DF 6F 29 DF EF 0E 20 AC 126162...o).....
+                                                                     98 80 5F D9 1E 53 3D 29 2B 64 FF DB 65 10 BB F9 .._..S=)+d..e...
+                                                                     0E 25 9B 0D 59 6D 17 60 AE F1 3E 2B 95 7E B5 DF .%..Ym.`..>+.~..
+                                                                     EF 09 01 01 23                                  ....#           
+[        COM1] [  2C52126162] [2102041041] [14:32:15:949] [GENERAL ] SendToPosRetCode :  0
+[        COM1] [  2C52126162] [2102041041] [14:32:15:949] [COMM    ] Waiting Response... (TO = 90000)
+[        COM1] [  2C52126162] [2102041041] [14:32:15:949] [COMM    ] Receive Waiting : Len = 2 (TO=90000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:249] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     00 3C                                           .<              
+[        COM1] [  2C52126162] [2102041041] [14:32:16:259] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:90000
+[        COM1] [  2C52126162] [2102041041] [14:32:16:259] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:16:259] [COMM    ] Expected Data Len 60 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:16:259] [COMM    ] Receive Waiting : Len = 61 (TO=90000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:259] [COMM    ] Reading :: (Size = 61) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 63 2C 2C52126162....c,
+                                                                     DF 02 15 DF 82 08 03 00 00 03 DF 82 09 03 26 04 ..............&.
+                                                                     13 DF 82 0A 03 14 32 14 DF 6F 11 DF EF 06 02 30 ......2..o.....0
+                                                                     30 DF EF 02 02 BC 02 DF EF 09 01 01 F7          0............   
+[        COM1] [  2C52126162] [2102041041] [14:32:16:269] [COMM    ] Waiting Len:61, RVC Len:61: TimeOunt:90000
+[        COM1] [  2C52126162] [2102041041] [14:32:16:269] [COMM    ] Receive Buffer Len:61
+[        COM1] [  2C52126162] [2102041041] [14:32:16:269] [COMM    ] 60 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:16:269] [GENERAL ] Receive Data RetCode : 0
+[        COM1] [  2C52126162] [2102041041] [14:32:16:269] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [GENERAL ] INIT Port Closed
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [GENERAL ] CLOSE ERROR CODE  >>: (Size = 2) [LineByteCount:16]
+                                                                     30 30                                           00              
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [GENERAL ] CLOSE  MESAJI  >>
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:16:279] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:16:289] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:16:409] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:16:409] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:16:409] [GENERAL ] Before SendToPoS. Len :
+[        COM1] [  2C52126162] [2102041041] [14:32:16:409] [COMM    ] Sending : (Size = 123) [LineByteCount:16]
+                                                                     00 78 32 43 35 32 31 32 36 31 36 32 00 00 FF 8A .x2C52126162....
+                                                                     8C 68 DF 02 15 DF 82 08 03 00 00 04 DF 82 09 03 .h..............
+                                                                     26 04 13 DF 82 0A 03 14 32 16 DF 41 10 DF C1 0C &.......2..A....
+                                                                     0C 32 43 35 32 31 32 36 31 36 32 00 00 DF 6F 3A .2C52126162...o:
+                                                                     DF EF BD 04 01 00 00 00 DF EF 0B 0A 32 31 30 32 ............2102
+                                                                     30 34 31 30 34 31 DF EF A2 20 EC 64 08 90 1B 7F 041041.....d...
+                                                                     10 DB F4 B6 06 B9 2E 93 CE 72 EC 65 B5 4D 55 8E .........r.e.MU.
+                                                                     69 82 7C 85 DB 2E B8 DE FB D9 53                i.|.......S     
+[        COM1] [  2C52126162] [2102041041] [14:32:16:419] [GENERAL ] SendToPosRetCode :  0
+[        COM1] [  2C52126162] [2102041041] [14:32:16:429] [COMM    ] Waiting Response... (TO = 90000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:429] [COMM    ] Receive Waiting : Len = 2 (TO=90000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:759] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     00 5C                                           .\              
+[        COM1] [  2C52126162] [2102041041] [14:32:16:759] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:90000
+[        COM1] [  2C52126162] [2102041041] [14:32:16:759] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:16:769] [COMM    ] Expected Data Len 92 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:16:769] [COMM    ] Receive Waiting : Len = 93 (TO=90000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:769] [COMM    ] Reading :: (Size = 93) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 8C 4C 2C52126162.....L
+                                                                     DF 02 15 DF 82 08 03 00 00 04 DF 82 09 03 26 04 ..............&.
+                                                                     13 DF 82 0A 03 14 32 14 DF 6F 16 DF EF 04 04 D0 ......2..o......
+                                                                     43 A0 B6 DF EF BD 04 01 00 00 00 DF EF 06 02 00 C...............
+                                                                     00 DF 51 18 DF EF C5 04 20 18 11 29 DF EF C6 04 ..Q........)....
+                                                                     20 30 11 29 DF EF C7 04 20 50 01 01 CC          .0.).....P...   
+[        COM1] [  2C52126162] [2102041041] [14:32:16:779] [COMM    ] Waiting Len:93, RVC Len:93: TimeOunt:90000
+[        COM1] [  2C52126162] [2102041041] [14:32:16:779] [COMM    ] Receive Buffer Len:93
+[        COM1] [  2C52126162] [2102041041] [14:32:16:779] [COMM    ] 92 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:16:779] [GENERAL ] Receive Data RetCode : 0
+[        COM1] [  2C52126162] [2102041041] [14:32:16:779] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [GENERAL ] INIT Port Closed
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [GENERAL ] VALIDATE ERROR CODE  >>: (Size = 2) [LineByteCount:16]
+                                                                     00 00                                           ..              
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [GENERAL ] FP3_GMP_StartPairingInit Return Code : 0
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [FUNCTION] <<<<< FP3_GMP_StartPairingInit (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [JSon    ] PAIRING RESPONSE TO JSON START >>>> Max=200000
+[        COM1] [  2C52126162] [2102041041] [14:32:16:789] [JSon    ] PAIRING RESPONSE TO JSON END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:16:799] [FUNCTION] <<<<< Json_FP3_StartPairingInit (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [FUNCTION] >>>>> Json_FP3_GetTaxRates_Ex(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [JSon    ] JSON TO TaxRates START >>>>
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [JSon    ] JSON TO TaxRate END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [FUNCTION] >>>>> FP3_GetTaxRates(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [FUNCTION] >>>>> SendToOkc(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [GENERAL ] Total EncryptDataGroup Calculation Time 0ms
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [FUNCTION] >>>>> ExchangeEcrMessage(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:16:859] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:16:869] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:16:869] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:16:869] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:16:889] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:16:999] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:16:999] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:16:999] [COMM    ] PLAIN MESSAGE >>>: (Size = 141) [LineByteCount:16]
+                                                                     DF EF 13 02 00 03 DF 02 15 DF 82 08 03 00 00 05 ................
+                                                                     DF 82 09 03 26 04 13 DF 82 0A 03 14 32 16 DF 6E ....&.......2..n
+                                                                     45 DF 77 05 DF ED 2B 01 00 DF 77 05 DF ED 2B 01 E.w...+...w...+.
+                                                                     01 DF 77 05 DF ED 2B 01 02 DF 77 05 DF ED 2B 01 ..w...+...w...+.
+                                                                     03 DF 77 05 DF ED 2B 01 04 DF 77 05 DF ED 2B 01 ..w...+...w...+.
+                                                                     05 DF 77 05 DF ED 2B 01 06 DF 77 05 DF ED 2B 01 ..w...+...w...+.
+                                                                     07 DF ED 2A 01 08 DF 6F 24 DF EF 0F 20 58 1E B9 ...*...o$....X..
+                                                                     76 7E 25 79 61 F5 56 00 1E E0 B2 C9 C5 B9 66 DD v~%ya.V.......f.
+                                                                     92 AE 9E FB 68 C1 E5 07 01 C6 00 3A AA          ....h......:.   
+[        COM1] [  2C52126162] [2102041041] [14:32:17:009] [COMM    ] Sending : (Size = 166) [LineByteCount:16]
+                                                                     00 A3 32 43 35 32 31 32 36 31 36 32 00 00 FF 9A ..2C52126162....
+                                                                     80 81 92 0D DF EF 13 02 00 03 DF 02 15 DF 82 08 ................
+                                                                     03 42 1F 05 DF 82 09 03 26 04 13 DF 82 0A 03 14 .B......&.......
+                                                                     32 16 DF 6E 45 DF 77 05 DF ED 2B 01 00 DF 77 05 2..nE.w...+...w.
+                                                                     DF ED 01 2B 22 01 1F DF 77 05 DF ED 2B 01 02 DF ...+"...w...+...
+                                                                     77 05 DF ED 2B 01 03 DF 77 05 DF ED 2B 01 04 DF w...+...w...+...
+                                                                     77 05 DF ED 2B 01 1F 05 DF 77 05 DF ED 2B 01 06 w...+....w...+..
+                                                                     DF 77 05 DF ED 2B 01 07 DF ED 2A 01 08 DF 6F 24 .w...+....*...o$
+                                                                     DF EF 0F 20 58 1E 1E B9 76 7E 25 79 61 F5 56 00 ....X...v~%ya.V.
+                                                                     1E E0 B2 C9 C5 B9 66 DD 92 AE 9E FB 68 C1 E5 07 ......f.....h...
+                                                                     01 C6 00 3A AA 57                               ...:.W          
+[        COM1] [  2C52126162] [2102041041] [14:32:17:019] [COMM    ] Waiting Response... (TO = 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:019] [COMM    ] Receive Waiting : Len = 2 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:149] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     01 14                                           ..              
+[        COM1] [  2C52126162] [2102041041] [14:32:17:159] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:159] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:17:159] [COMM    ] Expected Data Len 276 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:17:159] [COMM    ] Receive Waiting : Len = 277 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:159] [COMM    ] Reading :: (Size = 277) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 80 82 2C52126162......
+                                                                     01 02 DF 6E 7E DF 77 0C DF ED 2B 02 00 00 DF ED ...n~.w...+.....
+                                                                     2C 02 00 00 DF 77 0C DF ED 2B 02 01 00 DF ED 2C ,....w...+.....,
+                                                                     02 05 00 DF 77 0C DF ED 2B 02 02 00 DF ED 2C 02 ....w...+.....,.
+                                                                     10 00 DF 77 0C DF ED 2B 02 03 00 DF ED 2C 02 16 ...w...+.....,..
+                                                                     00 DF 77 0C DF ED 2B 02 04 00 DF ED 2C 02 20 00 ..w...+.....,...
+                                                                     DF 77 0C DF ED 2B 02 05 00 DF ED 2C 02 00 00 DF .w...+.....,....
+                                                                     77 0C DF ED 2B 02 06 00 DF ED 2C 02 20 00 DF 77 w...+.....,....w
+                                                                     0C DF ED 2B 02 07 00 DF ED 2C 02 20 00 DF ED 2A ...+.....,.....*
+                                                                     02 08 00 DF 6F 2A DF EF 0F 20 85 FA F4 55 F1 BF ....o*.......U..
+                                                                     9A 57 4D 05 C3 AA 0A A9 84 A9 19 C9 E5 B7 F5 84 .WM.............
+                                                                     78 54 E3 37 65 D6 52 44 37 2A DF EF 06 02 00 00 xT.7e.RD7*......
+                                                                     DF C1 0C 10 32 43 35 32 31 32 36 31 36 32 20 20 ....2C52126162..
+                                                                     20 20 20 20 DF 02 3D DF 82 08 03 00 00 05 DF 82 ......=.........
+                                                                     09 03 26 04 13 DF 82 0A 03 14 32 15 DF EF 14 0A ..&.......2.....
+                                                                     32 31 37 31 31 32 32 35 37 4B DF EF 0B 0A 32 30 217112257K....20
+                                                                     30 31 30 31 30 30 30 30 DF EF 13 02 00 03 DF EF 01010000........
+                                                                     A5 02 01 00 1A                                  .....           
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [COMM    ] Waiting Len:277, RVC Len:277: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [COMM    ] Receive Buffer Len:277
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [COMM    ] 276 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [FUNCTION] <<<<< ExchangeEcrMessage (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:179] [FUNCTION] <<<<< SendToOkc (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:17:189] [FUNCTION] >>>>> parse_GetEcr(TO : 0)
+[            ] [            ] [2102041041] [14:32:17:189] [FUNCTION] <<<<< parse_GetEcr (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:189] [FUNCTION] <<<<< FP3_GetTaxRates (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:189] [JSon    ] TaxRate TO JSON START >>>> Max=50000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:189] [JSon    ] TaxRate TO JSON END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:17:189] [FUNCTION] <<<<< Json_FP3_GetTaxRates_Ex (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [FUNCTION] >>>>> Json_FP3_GetDepartments_Ex(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [JSon    ] JSON TO Department START >>>>
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [JSon    ] JSON TO Department END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [FUNCTION] >>>>> FP3_GetDepartments(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [FUNCTION] >>>>> SendToOkc(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [GENERAL ] Total EncryptDataGroup Calculation Time 0ms
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [FUNCTION] >>>>> ExchangeEcrMessage(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:17:209] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:17:219] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:17:219] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:17:339] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:17:339] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:17:339] [COMM    ] PLAIN MESSAGE >>>: (Size = 173) [LineByteCount:16]
+                                                                     DF EF 13 02 00 03 DF 02 15 DF 82 08 03 00 00 06 ................
+                                                                     DF 82 09 03 26 04 13 DF 82 0A 03 14 32 17 DF 6E ....&.......2..n
+                                                                     65 DF 78 05 DF ED 21 01 00 DF 78 05 DF ED 21 01 e.x...!...x...!.
+                                                                     01 DF 78 05 DF ED 21 01 02 DF 78 05 DF ED 21 01 ..x...!...x...!.
+                                                                     03 DF 78 05 DF ED 21 01 04 DF 78 05 DF ED 21 01 ..x...!...x...!.
+                                                                     05 DF 78 05 DF ED 21 01 06 DF 78 05 DF ED 21 01 ..x...!...x...!.
+                                                                     07 DF 78 05 DF ED 21 01 08 DF 78 05 DF ED 21 01 ..x...!...x...!.
+                                                                     09 DF 78 05 DF ED 21 01 0A DF 78 05 DF ED 21 01 ..x...!...x...!.
+                                                                     0B DF ED 20 01 0C DF 6F 24 DF EF 0F 20 3C F4 2A .......o$....<.*
+                                                                     C2 25 61 2B 8E 35 80 F0 B9 15 03 90 31 3A 17 A8 .%a+.5......1:..
+                                                                     96 6B 76 7B 33 6D 42 49 7A D5 7E 7E FB          .kv{3mBIz.~~.   
+[        COM1] [  2C52126162] [2102041041] [14:32:17:349] [COMM    ] Sending : (Size = 200) [LineByteCount:16]
+                                                                     00 C5 32 43 35 32 31 32 36 31 36 32 00 00 FF 9A ..2C52126162....
+                                                                     80 81 B4 0D DF EF 13 02 00 03 DF 02 15 DF 82 08 ................
+                                                                     03 42 1F 06 DF 82 09 03 26 04 13 DF 82 0A 03 14 .B......&.......
+                                                                     32 17 DF 6E 65 DF 78 05 DF ED 21 01 00 DF 78 05 2..ne.x...!...x.
+                                                                     DF ED 01 21 22 01 1F DF 78 05 DF ED 21 01 02 DF ...!"...x...!...
+                                                                     78 05 DF ED 21 01 03 DF 78 05 DF ED 21 01 04 DF x...!...x...!...
+                                                                     78 05 DF ED 21 01 1F 05 DF 78 05 DF ED 21 01 06 x...!....x...!..
+                                                                     DF 78 05 DF ED 21 01 07 DF 78 05 DF ED 21 01 08 .x...!...x...!..
+                                                                     DF 78 05 DF ED 21 1F 01 09 DF 78 05 DF ED 21 01 .x...!....x...!.
+                                                                     0A DF 78 05 DF ED 21 01 0B DF ED 20 01 0C DF 6F ..x...!........o
+                                                                     24 DF EF 0F 20 3C 1C F4 2A C2 25 61 2B 8E 35 80 $....<..*.%a+.5.
+                                                                     F0 B9 15 03 90 31 3A 17 A8 96 6B 76 7B 33 6D 42 .....1:...kv{3mB
+                                                                     49 7A D5 22 7E 01 FB 8D                         Iz."~...        
+[        COM1] [  2C52126162] [2102041041] [14:32:17:369] [COMM    ] Waiting Response... (TO = 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:369] [COMM    ] Receive Waiting : Len = 2 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:539] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     04 CA                                           ..              
+[        COM1] [  2C52126162] [2102041041] [14:32:17:549] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:549] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:17:549] [COMM    ] Expected Data Len 1226 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:17:549] [COMM    ] Receive Waiting : Len = 1227 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:549] [COMM    ] Reading :: (Size = 1227) [LineByteCount:64]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 80 82 04 B8 DF 6E 82 04 32 DF 78 56 DF ED 21 02 00 00 DF ED 22 18 4B 44 56 20 25 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 2C52126162.........n..2.xV..!.....".KDV.%0....................$.
+                                                                     00 01 DF ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 01 00 DF ED 22 18 4B 44 56 ....&....'..I..%.........(.........)....J....I...xV..!.....".KDV
+                                                                     20 25 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 01 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF .%5....................$.....&....'..I..%.........(.........)...
+                                                                     F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 02 00 DF ED 22 18 4B 44 56 20 25 31 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 02 DF ED 27 02 09 49 DF .J....I...xV..!.....".KDV.%10...................$.....&....'..I.
+                                                                     ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 03 00 DF ED 22 18 4B 44 56 20 25 31 36 00 00 00 00 00 00 00 00 00 00 .%.........(.........)....J....I...xV..!.....".KDV.%16..........
+                                                                     00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 03 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED .........$.....&....'..I..%.........(.........)....J....I...xV..
+                                                                     21 02 04 00 DF ED 22 18 4B 44 56 20 25 32 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 04 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 !.....".KDV.%20...................$.....&....'..I..%.........(..
+                                                                     00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 05 00 DF ED 22 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF .......)....J....I...xV..!....."...........................$....
+                                                                     ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 06 00 DF ED 22 18 00 00 00 00 00 00 .&....'..I..%.........(.........)....J....I...xV..!.....".......
+                                                                     00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 ....................$.....&....'..I..%.........(.........)....J.
+                                                                     00 DF F0 49 01 00 DF 78 56 DF ED 21 02 07 00 DF ED 22 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 ...I...xV..!....."...........................$.....&....'..I..%.
+                                                                     00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 08 00 DF ED 22 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ........(.........)....J....I...xV..!.....".....................
+                                                                     00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 09 ......$.....&....'..I..%.........(.........)....J....I...xV..!..
+                                                                     00 DF ED 22 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 ..."...........................$.....&....'..I..%.........(.....
+                                                                     99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 0A 00 DF ED 22 18 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 ....)....J....I...xV..!....."...........................$.....&.
+                                                                     00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 49 01 00 DF 78 56 DF ED 21 02 0B 00 DF ED 22 18 00 00 00 00 00 00 00 00 00 ...'..I..%.........(.........)....J....I...xV..!....."..........
+                                                                     00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 DF ED 24 02 00 01 DF ED 26 01 00 DF ED 27 02 09 49 DF ED 25 06 00 00 00 00 00 00 DF ED 28 06 00 00 09 99 99 99 DF ED 29 01 00 DF F0 4A 01 00 DF F0 .................$.....&....'..I..%.........(.........)....J....
+                                                                     49 01 00 DF ED 20 02 0C 00 DF 6F 2A DF EF 0F 20 42 1D 83 0A 65 59 1C DF A8 EB A8 CC FA 67 B7 B9 22 FC 5C F4 EC 1A 43 F0 22 37 B2 2F 68 9A 96 3F DF EF 06 02 00 00 DF C1 0C 10 32 43 35 32 31 32 I.........o*....B...eY.......g..".\...C."7./h..?..........2C5212
+                                                                     36 31 36 32 20 20 20 20 20 20 DF 02 3D DF 82 08 03 00 00 06 DF 82 09 03 26 04 13 DF 82 0A 03 14 32 15 DF EF 14 0A 32 31 37 31 31 32 32 35 37 4B DF EF 0B 0A 32 30 30 31 30 31 30 30 30 30 DF EF 6162........=...........&.......2.....217112257K....2001010000..
+                                                                     13 02 00 03 DF EF A5 02 01 00 24                                                                                                                                                                ..........$                                                     
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [COMM    ] Waiting Len:1227, RVC Len:1227: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [COMM    ] Receive Buffer Len:1227
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [COMM    ] 1226 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [FUNCTION] <<<<< ExchangeEcrMessage (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:579] [FUNCTION] <<<<< SendToOkc (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:17:589] [FUNCTION] >>>>> parse_GetEcr(TO : 0)
+[            ] [            ] [2102041041] [14:32:17:589] [FUNCTION] <<<<< parse_GetEcr (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:589] [FUNCTION] <<<<< FP3_GetDepartments (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:589] [JSon    ] Department TO JSON START >>>> Max=50000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:589] [JSon    ] Department TO JSON END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:17:589] [FUNCTION] <<<<< Json_FP3_GetDepartments_Ex (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:17:619] [FUNCTION] >>>>> Json_FP3_GetCurrencyProfile(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [JSon    ] JSON TO Exchange Profile START >>>>
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [JSon    ] JSON TO Exchange Profile END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [FUNCTION] >>>>> FP3_GetCurrencyProfile(TO : 0) (hInt:016llX)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [FUNCTION] >>>>> SendToOkc(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [GENERAL ] Total EncryptDataGroup Calculation Time 0ms
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [FUNCTION] >>>>> ExchangeEcrMessage(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:17:629] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:17:639] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:17:639] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:17:760] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:17:760] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:17:760] [COMM    ] Sending : (Size = 96) [LineByteCount:16]
+                                                                     00 5D 32 43 35 32 31 32 36 31 36 32 00 00 FF 8A .]2C52126162....
+                                                                     80 4D DF EF 13 02 00 03 DF 02 15 DF 82 08 03 00 .M..............
+                                                                     00 07 DF 82 09 03 26 04 13 DF 82 0A 03 14 32 17 ......&.......2.
+                                                                     DF 6E 05 DF EE 9A 01 00 DF 6F 24 DF EF 0F 20 51 .n.......o$....Q
+                                                                     F8 83 0C 9F 59 3A 5F B2 9D BB 68 93 BF 47 CC 97 ....Y:_...h..G..
+                                                                     B5 CC 92 3E 8A 33 5F E0 B6 FD 06 1E AD DD E1 BB ...>.3_.........
+[        COM1] [  2C52126162] [2102041041] [14:32:17:769] [COMM    ] Waiting Response... (TO = 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:769] [COMM    ] Receive Waiting : Len = 2 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:969] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     01 6A                                           .j              
+[        COM1] [  2C52126162] [2102041041] [14:32:17:979] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:17:979] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:17:979] [COMM    ] Expected Data Len 362 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:17:979] [COMM    ] Receive Waiting : Len = 363 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:17:979] [COMM    ] Reading :: (Size = 363) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 80 82 2C52126162......
+                                                                     01 58 DF 6E 81 D3 DF EE 98 81 C9 DF EE 9B 0D 54 .X.n...........T
+                                                                     53 4D 20 54 41 42 4C 4F 53 55 00 00 DF ED 30 01 SM.TABLOSU....0.
+                                                                     03 DF EE 99 01 00 DF 79 37 DF ED 31 01 00 DF ED .......y7..1....
+                                                                     37 02 09 78 DF ED 32 03 45 55 52 DF ED 33 03 80 7..x..2.EUR..3..
+                                                                     20 20 DF ED 35 06 00 00 00 52 07 44 DF ED 34 01 ....5....R.D..4.
+                                                                     52 DF ED 36 01 04 DF EE 9C 01 2E DF EE 9D 01 2C R..6...........,
+                                                                     DF 79 37 DF ED 31 01 01 DF ED 37 02 09 97 DF ED .y7..1....7.....
+                                                                     32 03 55 53 44 DF ED 33 03 24 20 20 DF ED 35 06 2.USD..3.$....5.
+                                                                     00 00 00 44 51 57 DF ED 34 01 52 DF ED 36 01 04 ...DQW..4.R..6..
+                                                                     DF EE 9C 01 2E DF EE 9D 01 2C DF 79 37 DF ED 31 .........,.y7..1
+                                                                     01 02 DF ED 37 02 08 26 DF ED 32 03 47 42 50 DF ....7..&..2.GBP.
+                                                                     ED 33 03 20 20 54 DF ED 35 06 00 00 00 59 67 65 .3...T..5....Yge
+                                                                     DF ED 34 01 52 DF ED 36 01 04 DF EE 9C 01 2E DF ..4.R..6........
+                                                                     EE 9D 01 2C DF EE 9A 01 01 DF 6F 2A DF EF 0F 20 ...,......o*....
+                                                                     65 DB 69 D4 D2 8E 15 26 50 70 D5 E8 18 E3 2E 3D e.i....&Pp.....=
+                                                                     85 2E 2B ED 13 A2 86 B7 A3 BE 19 E3 29 BA D3 A6 ..+.........)...
+                                                                     DF EF 06 02 00 00 DF C1 0C 10 32 43 35 32 31 32 ..........2C5212
+                                                                     36 31 36 32 20 20 20 20 20 20 DF 02 3D DF 82 08 6162........=...
+                                                                     03 00 00 07 DF 82 09 03 26 04 13 DF 82 0A 03 14 ........&.......
+                                                                     32 15 DF EF 14 0A 32 31 37 31 31 32 32 35 37 4B 2.....217112257K
+                                                                     DF EF 0B 0A 32 30 30 31 30 31 30 30 30 30 DF EF ....2001010000..
+                                                                     13 02 00 03 DF EF A5 02 01 00 BB                ...........     
+[        COM1] [  2C52126162] [2102041041] [14:32:18:009] [COMM    ] Waiting Len:363, RVC Len:363: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:18:009] [COMM    ] Receive Buffer Len:363
+[        COM1] [  2C52126162] [2102041041] [14:32:18:009] [COMM    ] 362 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:18:009] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:18:009] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:019] [FUNCTION] <<<<< ExchangeEcrMessage (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:019] [FUNCTION] <<<<< SendToOkc (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:18:019] [FUNCTION] >>>>> parse_GetEcr(TO : 0)
+[            ] [            ] [2102041041] [14:32:18:019] [FUNCTION] <<<<< parse_GetEcr (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:019] [FUNCTION] <<<<< FP3_GetCurrencyProfile (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:019] [JSon    ] Exchange Profile TO JSON START >>>>
+[        COM1] [  2C52126162] [2102041041] [14:32:18:019] [JSon    ] Exchange Profile TO JSON END <<<<<<
+[        COM1] [  2C52126162] [2102041041] [14:32:18:019] [FUNCTION] <<<<< Json_FP3_GetCurrencyProfile (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:059] [FUNCTION] >>>>> FP3_Start(TO : 10000) (hInt:016llX) (hTrx:08lX)
+[            ] [            ] [2102041041] [14:32:18:059] [FUNCTION] >>>>> prepare_Start(TO : 0)
+[            ] [            ] [2102041041] [14:32:18:059] [FUNCTION] <<<<< prepare_Start (return:50-0x00000032:UNDEFINED ERROR 50 (0032H):UNDEFINED ERROR 50 (0032H))
+[        COM1] [  2C52126162] [2102041041] [14:32:18:059] [FUNCTION] >>>>> SendToOkc(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:059] [GENERAL ] Total EncryptDataGroup Calculation Time 0ms
+[        COM1] [  2C52126162] [2102041041] [14:32:18:059] [FUNCTION] >>>>> ExchangeEcrMessage(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:059] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:069] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:18:069] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:18:069] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:18:079] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:18:199] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:18:199] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:199] [COMM    ] PLAIN MESSAGE >>>: (Size = 122) [LineByteCount:16]
+                                                                     DF EF 13 02 00 03 DF 02 15 DF 82 08 03 00 00 08 ................
+                                                                     DF 82 09 03 26 04 13 DF 82 0A 03 14 32 18 DF 6E ....&.......2..n
+                                                                     32 DF 72 2F DF ED D0 02 01 00 DF ED E4 18 FF FF 2.r/............
+                                                                     FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF ................
+                                                                     FF FF FF FF FF FF DF ED EA 00 DF ED E9 00 DF ED ................
+                                                                     EB 01 00 DF 6F 24 DF EF 0F 20 E4 9B 1D E3 38 0D ....o$........8.
+                                                                     FF 3C 35 60 07 57 67 98 FB 41 81 28 6E A0 64 CF .<5`.Wg..A.(n.d.
+                                                                     7C 8A 4E 54 B8 24 91 84 87 B9                   |.NT.$....      
+[        COM1] [  2C52126162] [2102041041] [14:32:18:209] [COMM    ] Sending : (Size = 148) [LineByteCount:16]
+                                                                     00 91 32 43 35 32 31 32 36 31 36 32 00 00 FF 9B ..2C52126162....
+                                                                     89 81 80 11 33 D4 20 03 22 D0 F9 A1 2A 20 3E 5B ....3..."...*.>[
+                                                                     71 E2 1C 4D 02 34 13 8F 68 30 CF 75 EB D4 5B EF q..M.4..h0.u..[.
+                                                                     32 09 A1 C7 1A CD 2B 4C E0 E6 BC FC 31 22 87 43 2.....+L....1".C
+                                                                     38 87 AE 79 12 8B 28 97 42 8E D0 DC E3 5B 05 3C 8..y..(.B....[.<
+                                                                     11 6A CB A3 34 D0 66 CB BD AC 75 8B 00 A0 E8 EB .j..4.f...u.....
+                                                                     06 F3 6F AF 7D E3 FC 5C 67 6C 96 14 08 F7 26 41 ..o.}..\gl....&A
+                                                                     62 C5 21 2D 56 AC 67 C9 4E BF 69 C3 7B 2D 8C 67 b.!-V.g.N.i.{-.g
+                                                                     04 52 21 9A 55 AD A8 0F AC 88 A2 43 6E 3B 8F 90 .R!.U......Cn;..
+                                                                     C0 D0 3E FE                                     ..>.            
+[        COM1] [  2C52126162] [2102041041] [14:32:18:219] [COMM    ] Waiting Response... (TO = 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:219] [COMM    ] Receive Waiting : Len = 2 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:480] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     00 ED                                           ..              
+[        COM1] [  2C52126162] [2102041041] [14:32:18:489] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:18:489] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:18:489] [COMM    ] Expected Data Len 237 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:18:489] [COMM    ] Receive Waiting : Len = 238 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:489] [COMM    ] Reading :: (Size = 238) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 89 81 2C52126162......
+                                                                     DC DF 6E 58 DF 72 3A DF ED D0 02 01 00 DF ED E8 ..nX.r:.........
+                                                                     02 01 00 DF ED E1 08 45 3A 6C 63 70 FE DC 69 DF .......E:lcp..i.
+                                                                     ED E4 18 FF FF FF FF FF FF FF FF FF FF FF FF FF ................
+                                                                     FF FF FF FF FF FF FF FF FF FF FF DF ED E0 02 00 ................
+                                                                     00 DF 51 18 DF EF C5 04 20 18 11 29 DF EF C6 04 ..Q........)....
+                                                                     20 30 11 29 DF EF C7 04 20 50 01 01 DF 6F 2A DF .0.).....P...o*.
+                                                                     EF 0F 20 6F 36 86 C0 86 25 D5 DD D6 09 8A 4B 3E ...o6...%.....K>
+                                                                     96 A5 88 FA 37 F2 E9 F6 97 F0 C8 CD 0A 88 D7 4D ....7..........M
+                                                                     89 79 63 DF EF 06 02 00 00 DF C1 0C 10 32 43 35 .yc..........2C5
+                                                                     32 31 32 36 31 36 32 20 20 20 20 20 20 DF 02 3D 2126162........=
+                                                                     DF 82 08 03 00 00 08 DF 82 09 03 26 04 13 DF 82 ...........&....
+                                                                     0A 03 14 32 16 DF EF 14 0A 32 31 37 31 31 32 32 ...2.....2171122
+                                                                     35 37 4B DF EF 0B 0A 32 30 30 31 30 31 30 30 30 57K....200101000
+                                                                     30 DF EF 13 02 00 03 DF EF A5 02 01 00 6E       0............n  
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [COMM    ] Waiting Len:238, RVC Len:238: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [COMM    ] Receive Buffer Len:238
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [COMM    ] 237 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [FUNCTION] <<<<< ExchangeEcrMessage (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:509] [FUNCTION] <<<<< SendToOkc (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:18:509] [FUNCTION] >>>>> parse_FP3(TO : 0) (hTrx:08lX)
+[            ] [            ] [2102041041] [14:32:18:509] [FUNCTION] hTrx:08lX
+[            ] [            ] [2102041041] [14:32:18:509] [FUNCTION] <<<<< parse_FP3 (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:519] [FUNCTION] <<<<< FP3_Start (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:519] [FUNCTION] >>>>> FP3_Close(TO : 10000) (hInt:016llX) (hTrx:08lX)
+[            ] [            ] [2102041041] [14:32:18:519] [FUNCTION] >>>>> prepare_Close(TO : 0)
+[            ] [            ] [2102041041] [14:32:18:519] [FUNCTION] <<<<< prepare_Close (return:9-0x00000009:UNDEFINED ERROR 9 (0009H):UNDEFINED ERROR 9 (0009H))
+[        COM1] [  2C52126162] [2102041041] [14:32:18:519] [FUNCTION] >>>>> SendToOkc(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:529] [GENERAL ] Total EncryptDataGroup Calculation Time 0ms
+[        COM1] [  2C52126162] [2102041041] [14:32:18:529] [FUNCTION] >>>>> ExchangeEcrMessage(TO : 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:529] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:529] [GENERAL ] Version = 2102041041
+[        COM1] [  2C52126162] [2102041041] [14:32:18:529] [COMM    ] TCP Connection : 192.168.2.13:7500
+[        COM1] [  2C52126162] [2102041041] [14:32:18:529] [COMM    ] Socket Opened.
+[        COM1] [  2C52126162] [2102041041] [14:32:18:539] [COMM    ] Socket Connected
+[        COM1] [  2C52126162] [2102041041] [14:32:18:649] [COMM    ] Connection OK
+[        COM1] [  2C52126162] [2102041041] [14:32:18:649] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:649] [COMM    ] Sending : (Size = 115) [LineByteCount:16]
+                                                                     00 70 32 43 35 32 31 32 36 31 36 32 00 00 FF 8B .p2C52126162....
+                                                                     89 60 16 3B 3B AB 4F CD 8F 2A EB 62 7F BB BE 60 .`.;;.O..*.b..`
+                                                                     15 76 6F 12 E4 99 BD 55 FB 37 AA 7C 6F FB 11 33 .vo....U.7.|o..3
+                                                                     81 99 B0 FD 4D 13 2E 1F 98 2B 84 00 F3 41 C5 DF ....M....+...A..
+                                                                     27 76 82 5F 4E 50 C9 27 58 5C 09 4B 85 80 95 A0 'v._NP.'X\.K....
+                                                                     A6 D3 1D 41 43 67 67 F7 6E AC 4E 74 7C CE D9 62 ...ACgg.n.Nt|..b
+                                                                     69 72 6A 38 4A 55 CF 5F E3 FD CB 06 4C 68 2A F6 irj8JU._....Lh*.
+                                                                     01 EF 05                                        ...             
+[        COM1] [  2C52126162] [2102041041] [14:32:18:659] [COMM    ] Waiting Response... (TO = 10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:659] [COMM    ] Receive Waiting : Len = 2 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:970] [COMM    ] Reading :: (Size = 2) [LineByteCount:16]
+                                                                     00 C8                                           ..              
+[        COM1] [  2C52126162] [2102041041] [14:32:18:979] [COMM    ] Waiting Len:2, RVC Len:2: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:18:979] [COMM    ] Receive Buffer Len:2
+[        COM1] [  2C52126162] [2102041041] [14:32:18:979] [COMM    ] Expected Data Len 200 bytes
+[        COM1] [  2C52126162] [2102041041] [14:32:18:979] [COMM    ] Receive Waiting : Len = 201 (TO=10000)
+[        COM1] [  2C52126162] [2102041041] [14:32:18:979] [COMM    ] Reading :: (Size = 201) [LineByteCount:16]
+                                                                     32 43 35 32 31 32 36 31 36 32 20 20 FF 8E 89 81 2C52126162......
+                                                                     B7 DF 6E 33 DF 72 30 DF ED D0 02 07 00 DF ED E8 ..n3.r0.........
+                                                                     02 01 00 DF ED E1 08 00 00 00 00 00 00 00 00 DF ................
+                                                                     ED 06 02 90 03 DF ED 08 02 01 00 DF ED 07 02 02 ................
+                                                                     00 DF ED E0 02 00 00 DF 6F 2A DF EF 0F 20 23 7A ........o*....#z
+                                                                     92 14 63 F2 0A 12 51 4D 95 BB F0 6A C3 CD 4E 3F ..c...QM...j..N?
+                                                                     D1 A8 0B CE 9D E6 AB 14 55 0D 79 DE D3 7F DF EF ........U.y....
+                                                                     06 02 00 00 DF C1 0C 10 32 43 35 32 31 32 36 31 ........2C521261
+                                                                     36 32 20 20 20 20 20 20 DF 02 3D DF 82 08 03 00 62........=.....
+                                                                     00 09 DF 82 09 03 26 04 13 DF 82 0A 03 14 32 16 ......&.......2.
+                                                                     DF EF 14 0A 32 31 37 31 31 32 32 35 37 4B DF EF ....217112257K..
+                                                                     0B 0A 32 30 30 31 30 31 30 30 30 30 DF EF 13 02 ..2001010000....
+                                                                     00 03 DF EF A5 02 01 00 3D                      ........=       
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [COMM    ] Waiting Len:201, RVC Len:201: TimeOunt:10000
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [COMM    ] Receive Buffer Len:201
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [COMM    ] 200 bytes data copied
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [COMM    ] Socket Closed.
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [FUNCTION] <<<<< ExchangeEcrMessage (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:18:999] [FUNCTION] <<<<< SendToOkc (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [14:32:19:009] [FUNCTION] >>>>> parse_FP3(TO : 0) (hTrx:08lX)
+[            ] [            ] [2102041041] [14:32:19:009] [FUNCTION] hTrx:08lX
+[            ] [            ] [2102041041] [14:32:19:009] [FUNCTION] <<<<< parse_FP3 (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [  2C52126162] [2102041041] [14:32:19:009] [FUNCTION] <<<<< FP3_Close (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])

@@ -1,0 +1,177 @@
+[            ] [            ] [2102041041] [20:44:37:743] [GENERAL ] XML Path : 
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] IsCheckStructVersion : TRUE
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] LogFileSize : 5000000
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] LogPath : 
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] Interface : ID=COM1 (Default=TRUE)
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] Interface Data = RetryCounter:3, IpRetryCount:3, AckTimeOut:3000, CommTimeOut:90000, InterCharacterTimeOut:100, PortName:\\.\COM13, BaudRate:115200, ByteSize:8, fParity:0, Parity:0, StopBit:0, IsTcpConnection:FALSE, IP:10.0.1.14, Port:7500, 
+[            ] [            ] [2102041041] [20:44:37:753] [GENERAL ] Interface Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:44:37:763] [FUNCTION] Version = 2102041041
+[            ] [            ] [2102041041] [20:44:37:763] [FUNCTION] >>>>> FP3_GetInterfaceHandleList(TO : 0)
+[            ] [            ] [2102041041] [20:44:37:763] [FUNCTION] <<<<< FP3_GetInterfaceHandleList (return:1-0x00000001:TRAN_RESULT_NOT_ALLOWED [1]:Ýþleme Ýzin Verilmedi. [1])
+[        COM1] [            ] [2102041041] [20:44:37:763] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:37:763] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:44:40:523] [FUNCTION] >>>>> Json_FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:40:523] [FUNCTION] >>>>> FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:40:523] [FUNCTION] <<<<< FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:44:40:533] [JSon    ] ST_INTERFACE_XML_DATA TO JSON START >>>> Max=50000
+[            ] [            ] [2102041041] [20:44:40:533] [JSon    ] ST_INTERFACE_XML_DATA TO JSON END <<<<<<
+[            ] [            ] [2102041041] [20:44:40:533] [FUNCTION] <<<<< Json_FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:44:40:833] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:40:833] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] XML Path : 
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] IsCheckStructVersion : TRUE
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] LogFileSize : 5000000
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] LogPath : 
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] Interface : ID=COM1 (Default=TRUE)
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] Interface Data = RetryCounter:3, IpRetryCount:3, AckTimeOut:3000, CommTimeOut:90000, InterCharacterTimeOut:100, PortName:\\.\COM13, BaudRate:115200, ByteSize:8, fParity:0, Parity:0, StopBit:0, IsTcpConnection:FALSE, IP:10.0.1.14, Port:7500, 
+[            ] [            ] [2102041041] [20:44:41:613] [GENERAL ] Interface Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:44:41:613] [FUNCTION] Version = 2102041041
+[            ] [            ] [2102041041] [20:44:41:623] [FUNCTION] >>>>> FP3_GetInterfaceHandleList(TO : 0)
+[            ] [            ] [2102041041] [20:44:41:623] [FUNCTION] <<<<< FP3_GetInterfaceHandleList (return:1-0x00000001:TRAN_RESULT_NOT_ALLOWED [1]:Ýþleme Ýzin Verilmedi. [1])
+[        COM1] [            ] [2102041041] [20:44:41:623] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:41:623] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:44:41:633] [FUNCTION] >>>>> Json_FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:41:633] [FUNCTION] >>>>> FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:41:633] [FUNCTION] <<<<< FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:44:41:633] [JSon    ] ST_INTERFACE_XML_DATA TO JSON START >>>> Max=50000
+[            ] [            ] [2102041041] [20:44:41:633] [JSon    ] ST_INTERFACE_XML_DATA TO JSON END <<<<<<
+[            ] [            ] [2102041041] [20:44:41:643] [FUNCTION] <<<<< Json_FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:44:41:843] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:41:843] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:44:51:435] [FUNCTION] >>>>> FP3_Ping(TO : 1100) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:44:51:443] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:44:51:443] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [20:44:51:443] [COMM    ] Serial Connection : Port:\\.\COM13, BaudRate:115200, Size:8, fParity:0, Parity:0, StopBit:0
+[        COM1] [            ] [2102041041] [20:44:51:453] [COMM    ] Serial Port Opened.
+[        COM1] [            ] [2102041041] [20:44:51:453] [COMM    ] ************ FLUSH ************
+[        COM1] [            ] [2102041041] [20:44:51:453] [COMM    ] Receive Waiting : Len = 1024 (TO=100)
+[        COM1] [            ] [2102041041] [20:44:51:563] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [20:44:51:573] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:44:51:573] [COMM    ] Sending : (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:44:51:583] [COMM    ] Serial port : Send Error!! GetLastError = 
+[        COM1] [            ] [2102041041] [20:44:51:585] [COMM    ] Receive Waiting : Len = 1 (TO=1100)
+[        COM1] [            ] [2102041041] [20:44:52:712] [COMM    ] Serial Port Closed.
+[        COM1] [            ] [2102041041] [20:44:52:712] [FUNCTION] <<<<< FP3_Ping (return:2-0x00000002:TRAN_RESULT_TIMEOUT [2]:Zaman Aþýmý. [2])
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] XML Path : 
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] IsCheckStructVersion : TRUE
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] LogFileSize : 5000000
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] LogPath : 
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] Interface : ID=COM1 (Default=TRUE)
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] Interface Data = RetryCounter:3, IpRetryCount:3, AckTimeOut:3000, CommTimeOut:90000, InterCharacterTimeOut:100, PortName:\\.\COM14, BaudRate:115200, ByteSize:8, fParity:0, Parity:0, StopBit:0, IsTcpConnection:FALSE, IP:10.0.1.14, Port:7500, 
+[            ] [            ] [2102041041] [20:45:26:112] [GENERAL ] Interface Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:45:26:112] [FUNCTION] Version = 2102041041
+[            ] [            ] [2102041041] [20:45:26:112] [FUNCTION] >>>>> FP3_GetInterfaceHandleList(TO : 0)
+[            ] [            ] [2102041041] [20:45:26:112] [FUNCTION] <<<<< FP3_GetInterfaceHandleList (return:1-0x00000001:TRAN_RESULT_NOT_ALLOWED [1]:Ýþleme Ýzin Verilmedi. [1])
+[        COM1] [            ] [2102041041] [20:45:26:122] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:26:122] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:45:26:132] [FUNCTION] >>>>> Json_FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:26:132] [FUNCTION] >>>>> FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:26:132] [FUNCTION] <<<<< FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:45:26:132] [JSon    ] ST_INTERFACE_XML_DATA TO JSON START >>>> Max=50000
+[            ] [            ] [2102041041] [20:45:26:132] [JSon    ] ST_INTERFACE_XML_DATA TO JSON END <<<<<<
+[            ] [            ] [2102041041] [20:45:26:132] [FUNCTION] <<<<< Json_FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:45:26:322] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:26:322] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:45:30:832] [FUNCTION] >>>>> FP3_Ping(TO : 1100) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:30:832] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:45:30:842] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [20:45:30:842] [COMM    ] Serial Connection : Port:\\.\COM14, BaudRate:115200, Size:8, fParity:0, Parity:0, StopBit:0
+[        COM1] [            ] [2102041041] [20:45:30:842] [COMM    ] Serial Port Opened.
+[        COM1] [            ] [2102041041] [20:45:30:842] [COMM    ] ************ FLUSH ************
+[        COM1] [            ] [2102041041] [20:45:30:842] [COMM    ] Receive Waiting : Len = 1024 (TO=100)
+[        COM1] [            ] [2102041041] [20:45:30:952] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [20:45:30:952] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:45:30:952] [COMM    ] Sending : (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:45:30:962] [COMM    ] Receive Waiting : Len = 1 (TO=1100)
+[        COM1] [            ] [2102041041] [20:45:32:090] [COMM    ] Serial Port Closed.
+[        COM1] [            ] [2102041041] [20:45:32:091] [FUNCTION] <<<<< FP3_Ping (return:2-0x00000002:TRAN_RESULT_TIMEOUT [2]:Zaman Aþýmý. [2])
+[            ] [            ] [2102041041] [20:45:55:431] [GENERAL ] XML Path : 
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] IsCheckStructVersion : TRUE
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] LogFileSize : 5000000
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] LogPath : 
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] Interface : ID=COM1 (Default=TRUE)
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] Interface Data = RetryCounter:3, IpRetryCount:3, AckTimeOut:3000, CommTimeOut:90000, InterCharacterTimeOut:100, PortName:\\.\COM15, BaudRate:115200, ByteSize:8, fParity:0, Parity:0, StopBit:0, IsTcpConnection:FALSE, IP:10.0.1.14, Port:7500, 
+[            ] [            ] [2102041041] [20:45:55:441] [GENERAL ] Interface Debug Flags = LogPrintToFileOpen:TRUE, LogGeneralOpen:TRUE, LogFunctionOpen:TRUE, LogSecurityOpen:FALSE, LogCommOpen:TRUE, LogExtDevOpen:TRUE, LogJsonOpen:TRUE, LogJsonDataOpen:FALSE, LogGmp3TagsOpen:FALSE, LogThreadOpen:FALSE, LogPrintSerialNumOpen:FALSE, LogPrintDateOpen:FALSE, LogPrintTimeOpen:TRUE, LogPrintTypeOpen:TRUE, LogPrintVersionOpen:TRUE, LogPrintSourceFileOpen:FALSE, LogPrintSourceLineOpen:FALSE, 
+[            ] [            ] [2102041041] [20:45:55:441] [FUNCTION] Version = 2102041041
+[            ] [            ] [2102041041] [20:45:55:441] [FUNCTION] >>>>> FP3_GetInterfaceHandleList(TO : 0)
+[            ] [            ] [2102041041] [20:45:55:441] [FUNCTION] <<<<< FP3_GetInterfaceHandleList (return:1-0x00000001:TRAN_RESULT_NOT_ALLOWED [1]:Ýþleme Ýzin Verilmedi. [1])
+[        COM1] [            ] [2102041041] [20:45:55:451] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:55:451] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:45:55:461] [FUNCTION] >>>>> Json_FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:55:461] [FUNCTION] >>>>> FP3_GetInterfaceXmlDataByHandle(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:55:461] [FUNCTION] <<<<< FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[            ] [            ] [2102041041] [20:45:55:461] [JSon    ] ST_INTERFACE_XML_DATA TO JSON START >>>> Max=50000
+[            ] [            ] [2102041041] [20:45:55:461] [JSon    ] ST_INTERFACE_XML_DATA TO JSON END <<<<<<
+[            ] [            ] [2102041041] [20:45:55:461] [FUNCTION] <<<<< Json_FP3_GetInterfaceXmlDataByHandle (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:45:55:651] [FUNCTION] >>>>> FP3_GetInterfaceID(TO : 0) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:55:651] [FUNCTION] <<<<< FP3_GetInterfaceID (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:45:59:154] [FUNCTION] >>>>> FP3_Ping(TO : 1100) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:45:59:161] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:45:59:161] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [20:45:59:161] [COMM    ] Serial Connection : Port:\\.\COM15, BaudRate:115200, Size:8, fParity:0, Parity:0, StopBit:0
+[        COM1] [            ] [2102041041] [20:45:59:161] [COMM    ] Serial Port Opened.
+[        COM1] [            ] [2102041041] [20:45:59:171] [COMM    ] ************ FLUSH ************
+[        COM1] [            ] [2102041041] [20:45:59:171] [COMM    ] Receive Waiting : Len = 1024 (TO=100)
+[        COM1] [            ] [2102041041] [20:45:59:292] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [20:45:59:292] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:45:59:302] [COMM    ] Sending : (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:45:59:302] [COMM    ] Receive Waiting : Len = 1 (TO=1100)
+[        COM1] [            ] [2102041041] [20:45:59:311] [COMM    ] Reading :: (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:45:59:353] [COMM    ] Serial Port Closed.
+[        COM1] [            ] [2102041041] [20:45:59:353] [FUNCTION] <<<<< FP3_Ping (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:46:00:165] [FUNCTION] >>>>> FP3_Ping(TO : 1100) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:46:00:165] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:46:00:173] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [20:46:00:173] [COMM    ] Serial Connection : Port:\\.\COM15, BaudRate:115200, Size:8, fParity:0, Parity:0, StopBit:0
+[        COM1] [            ] [2102041041] [20:46:00:173] [COMM    ] Serial Port Opened.
+[        COM1] [            ] [2102041041] [20:46:00:173] [COMM    ] ************ FLUSH ************
+[        COM1] [            ] [2102041041] [20:46:00:183] [COMM    ] Receive Waiting : Len = 1024 (TO=100)
+[        COM1] [            ] [2102041041] [20:46:00:293] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [20:46:00:293] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:46:00:293] [COMM    ] Sending : (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:46:00:303] [COMM    ] Receive Waiting : Len = 1 (TO=1100)
+[        COM1] [            ] [2102041041] [20:46:00:314] [COMM    ] Reading :: (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:46:00:338] [COMM    ] Serial Port Closed.
+[        COM1] [            ] [2102041041] [20:46:00:338] [FUNCTION] <<<<< FP3_Ping (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:46:01:165] [FUNCTION] >>>>> FP3_Ping(TO : 1100) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:46:01:185] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:46:01:185] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [20:46:01:185] [COMM    ] Serial Connection : Port:\\.\COM15, BaudRate:115200, Size:8, fParity:0, Parity:0, StopBit:0
+[        COM1] [            ] [2102041041] [20:46:01:195] [COMM    ] Serial Port Opened.
+[        COM1] [            ] [2102041041] [20:46:01:195] [COMM    ] ************ FLUSH ************
+[        COM1] [            ] [2102041041] [20:46:01:195] [COMM    ] Receive Waiting : Len = 1024 (TO=100)
+[        COM1] [            ] [2102041041] [20:46:01:305] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [20:46:01:305] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:46:01:305] [COMM    ] Sending : (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:46:01:305] [COMM    ] Receive Waiting : Len = 1 (TO=1100)
+[        COM1] [            ] [2102041041] [20:46:01:326] [COMM    ] Reading :: (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:46:01:353] [COMM    ] Serial Port Closed.
+[        COM1] [            ] [2102041041] [20:46:01:355] [FUNCTION] <<<<< FP3_Ping (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])
+[        COM1] [            ] [2102041041] [20:46:02:166] [FUNCTION] >>>>> FP3_Ping(TO : 1100) (hInt:016llX)
+[        COM1] [            ] [2102041041] [20:46:02:166] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:46:02:166] [GENERAL ] Version = 2102041041
+[        COM1] [            ] [2102041041] [20:46:02:175] [COMM    ] Serial Connection : Port:\\.\COM15, BaudRate:115200, Size:8, fParity:0, Parity:0, StopBit:0
+[        COM1] [            ] [2102041041] [20:46:02:175] [COMM    ] Serial Port Opened.
+[        COM1] [            ] [2102041041] [20:46:02:175] [COMM    ] ************ FLUSH ************
+[        COM1] [            ] [2102041041] [20:46:02:175] [COMM    ] Receive Waiting : Len = 1024 (TO=100)
+[        COM1] [            ] [2102041041] [20:46:02:285] [COMM    ] Connection OK
+[        COM1] [            ] [2102041041] [20:46:02:285] [GENERAL ] ---------------------------------------------------------------------------------
+[        COM1] [            ] [2102041041] [20:46:02:285] [COMM    ] Sending : (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:46:02:295] [COMM    ] Receive Waiting : Len = 1 (TO=1100)
+[        COM1] [            ] [2102041041] [20:46:02:306] [COMM    ] Reading :: (Size = 1) [LineByteCount:16]
+                                                                     57                                              W               
+[        COM1] [            ] [2102041041] [20:46:02:339] [COMM    ] Serial Port Closed.
+[        COM1] [            ] [2102041041] [20:46:02:339] [FUNCTION] <<<<< FP3_Ping (return:0-0x00000000:TRAN_RESULT_OK [0]:Ýþlem Baþarýlý sonuçlandý. [0])

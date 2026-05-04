@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-9" ?>
+<GMP>
+	<DLL>
+		<IsCheckStructVersion>TRUE</IsCheckStructVersion>
+		<LogPath></LogPath>
+		<LogFileSize>5000000</LogFileSize>
+	</DLL>
+	<LOG>
+		<LogPrintToFileOpen>TRUE</LogPrintToFileOpen>
+		<LogGeneralOpen>TRUE</LogGeneralOpen>
+		<LogFunctionOpen>TRUE</LogFunctionOpen>
+		<LogSecurityOpen>FALSE</LogSecurityOpen>
+		<LogCommOpen>TRUE</LogCommOpen>
+		<LogExtDevOpen>TRUE</LogExtDevOpen>
+		<LogJsonOpen>TRUE</LogJsonOpen>
+		<LogJsonDataOpen>TRUE</LogJsonDataOpen>
+		<LogGmp3TagsOpen>TRUE</LogGmp3TagsOpen>
+		<LogThreadOpen>FALSE</LogThreadOpen>
+		<LogPrintTimeOpen>TRUE</LogPrintTimeOpen>
+		<LogPrintTypeOpen>TRUE</LogPrintTypeOpen>
+		<LogPrintSourceFileOpen>FALSE</LogPrintSourceFileOpen>
+		<LogPrintSourceLineOpen>FALSE</LogPrintSourceLineOpen>
+	</LOG>
+	<INTERFACE ID="COM1" DEFAULT="TRUE">
+		<RetryCounter>3</RetryCounter>
+		<IpRetryCount>3</IpRetryCount>
+		<AckTimeOut>3000</AckTimeOut>
+		<CommTimeOut>90000</CommTimeOut>
+		<InterCharacterTimeOut>100</InterCharacterTimeOut>
+		<PortName>\\.\COM5</PortName>
+		<BaudRate>115200</BaudRate>
+		<ByteSize>8</ByteSize>
+		<fParity>0</fParity>
+		<Parity>0</Parity>
+		<StopBit>0</StopBit>
+		<IsTcpConnection>TRUE</IsTcpConnection>
+		<IP>85.103.59.164</IP>
+		<Port>7500</Port>
+		<IsTcpKeepAlive>FALSE</IsTcpKeepAlive>
+	</INTERFACE>
+</GMP>

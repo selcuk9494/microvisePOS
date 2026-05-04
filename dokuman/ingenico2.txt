@@ -1,0 +1,148 @@
+2026-04-13T15:47:34.8099513+03:00 | Bilgi | Kiosk uygulamasi baslatiliyor.
+2026-04-13T15:47:34.8148371+03:00 | Bilgi | MainWindow olusturuluyor.
+2026-04-13T15:47:34.8688983+03:00 | Bilgi | MainViewModel: Ayarlar yukleniyor.
+2026-04-13T15:47:34.9246745+03:00 | Bilgi | MainViewModel: Servisler olusturuluyor.
+2026-04-13T15:47:35.2543816+03:00 | Bilgi | MainViewModel: Tema uygulanıyor.
+2026-04-13T15:47:35.2650385+03:00 | Bilgi | MainViewModel: ViewModel'ler olusturuluyor.
+2026-04-13T15:47:35.3244139+03:00 | Bilgi | MainViewModel: Event baglantilari yapiliyor.
+2026-04-13T15:47:35.3258663+03:00 | Bilgi | MainViewModel: MainViewModel hazir.
+2026-04-13T15:47:35.5421378+03:00 | Bilgi | MainWindow gosteriliyor.
+2026-04-13T15:47:35.9516577+03:00 | Bilgi | Kiosk ana pencere acildi.
+2026-04-13T15:47:35.9759796+03:00 | Bilgi | MainViewModel: Arka plan gorevleri baslatiliyor.
+2026-04-13T15:47:36.0097840+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: precheck
+2026-04-13T15:47:36.0368424+03:00 | Bilgi | Ingenico açılış ön kontrolü başlatıldı.
+2026-04-13T15:47:36.0414071+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 10.0.1.17, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:47:36.0442718+03:00 | Bilgi | TCP Probe başlatılıyor: 10.0.1.17:7500
+2026-04-13T15:47:38.0608377+03:00 | Hata | Ham TCP bağlantı testi başarısız. Cihaza TCP seviyesinde ulaşılamıyor.
+2026-04-13T15:47:38.0683854+03:00 | Hata | Ingenico açılış ön kontrolü başarısız: Cihaza ulaşılamıyor. Lütfen Kiosk ve cihazın aynı ağda olduğundan, cihazın açık olduğundan ve 10.0.1.17:7500 portunun dinlediğinden emin olun.
+2026-04-13T15:48:06.2172380+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: precheck
+2026-04-13T15:48:06.2196101+03:00 | Bilgi | Ingenico açılış ön kontrolü başlatıldı.
+2026-04-13T15:48:06.2205759+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 10.0.1.17, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:48:06.2207770+03:00 | Bilgi | TCP Probe başlatılıyor: 10.0.1.17:7500
+2026-04-13T15:48:08.2422915+03:00 | Hata | Ham TCP bağlantı testi başarısız. Cihaza TCP seviyesinde ulaşılamıyor.
+2026-04-13T15:48:08.2571257+03:00 | Hata | Ingenico açılış ön kontrolü başarısız: Cihaza ulaşılamıyor. Lütfen Kiosk ve cihazın aynı ağda olduğundan, cihazın açık olduğundan ve 10.0.1.17:7500 portunun dinlediğinden emin olun.
+2026-04-13T15:48:21.4004075+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: precheck
+2026-04-13T15:48:21.4025065+03:00 | Bilgi | Ingenico açılış ön kontrolü başlatıldı.
+2026-04-13T15:48:21.4029125+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 192.168.2.13, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:48:21.4031749+03:00 | Bilgi | TCP Probe başlatılıyor: 192.168.2.13:7500
+2026-04-13T15:48:21.4141051+03:00 | Bilgi | Ham TCP bağlantı testi başarılı.
+2026-04-13T15:48:21.4445012+03:00 | Bilgi | DLL'e gönderilecek bağlantı bilgileri:
+2026-04-13T15:48:21.4449600+03:00 | Bilgi | InterfaceId: COM1, Mod: TCP, IP: 192.168.2.13, Port: 7500
+2026-04-13T15:48:21.4962877+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode: 0
+2026-04-13T15:48:21.5342606+03:00 | Bilgi | Interface XML Data: {"RetryCounter":3,"IpRetryCount":1,"AckTimeOut":1500,"CommTimeOut":10000,"InterCharacterTimeOut":100,"PortName":"\\\\.\\COM5","BaudRate":115200,"ByteSize":8,"fParity":0,"Parity":0,"StopBit":0,"IsTcpConnection":1,"IP":"192.168.2.13","Port":7500,"IsTcpKeepAlive":1}
+2026-04-13T15:48:21.5375702+03:00 | Bilgi | Mevcut Ingenico interface bulundu. Handle: 652162138
+2026-04-13T15:48:21.6919761+03:00 | Bilgi | Json_FP3_UpdateInterfaceXmlDataByID retcode: 0
+2026-04-13T15:48:21.7029079+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode after create: 0
+2026-04-13T15:48:22.2293341+03:00 | Bilgi | Json_FP3_FunctionGetHandleList retcode: 2334
+2026-04-13T15:48:22.2308896+03:00 | Bilgi | Ingenico ECHO kontrolü çalıştırılıyor.
+2026-04-13T15:48:22.7862069+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: test
+2026-04-13T15:48:23.1039110+03:00 | Bilgi | Json_FP3_Echo retcode: 0
+2026-04-13T15:48:23.1045564+03:00 | Bilgi | Ingenico ECHO başarılı.
+2026-04-13T15:48:23.1072534+03:00 | Bilgi | Ingenico pairing durumu kontrol ediliyor.
+2026-04-13T15:48:23.1086475+03:00 | Bilgi | FP3_IsGmpPairingDone retcode: 0
+2026-04-13T15:48:23.1126771+03:00 | Bilgi | Ingenico bağlantı testi başlatıldı.
+2026-04-13T15:48:23.1143029+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 192.168.2.13, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:48:23.1145815+03:00 | Bilgi | TCP Probe başlatılıyor: 192.168.2.13:7500
+2026-04-13T15:48:23.1227393+03:00 | Bilgi | Ham TCP bağlantı testi başarılı.
+2026-04-13T15:48:23.1306280+03:00 | Bilgi | DLL'e gönderilecek bağlantı bilgileri:
+2026-04-13T15:48:23.1308812+03:00 | Bilgi | InterfaceId: COM1, Mod: TCP, IP: 192.168.2.13, Port: 7500
+2026-04-13T15:48:23.1369160+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode: 0
+2026-04-13T15:48:23.1386919+03:00 | Bilgi | Interface XML Data: {"RetryCounter":3,"IpRetryCount":1,"AckTimeOut":1500,"CommTimeOut":10000,"InterCharacterTimeOut":100,"PortName":"\\\\.\\COM5","BaudRate":115200,"ByteSize":8,"fParity":0,"Parity":0,"StopBit":0,"IsTcpConnection":1,"IP":"192.168.2.13","Port":7500,"IsTcpKeepAlive":1}
+2026-04-13T15:48:23.1395756+03:00 | Bilgi | Mevcut Ingenico interface bulundu. Handle: 652162138
+2026-04-13T15:48:23.2772702+03:00 | Bilgi | Json_FP3_UpdateInterfaceXmlDataByID retcode: 0
+2026-04-13T15:48:23.2876455+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode after create: 0
+2026-04-13T15:48:23.2879738+03:00 | Bilgi | Ingenico interface hazır. Handle: 652162138
+2026-04-13T15:48:23.2881342+03:00 | Bilgi | Ingenico ECHO kontrolü çalıştırılıyor.
+2026-04-13T15:48:24.0134974+03:00 | Bilgi | Json_FP3_Echo retcode: 0
+2026-04-13T15:48:24.0149625+03:00 | Bilgi | Ingenico ECHO başarılı.
+2026-04-13T15:48:24.0152053+03:00 | Bilgi | Ingenico bağlantı testi başarılı.
+2026-04-13T15:48:26.5990714+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: pairing
+2026-04-13T15:48:26.6176872+03:00 | Bilgi | Ingenico manuel pairing akışı başlatıldı.
+2026-04-13T15:48:26.6258438+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 192.168.2.13, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:48:26.6264541+03:00 | Bilgi | TCP Probe başlatılıyor: 192.168.2.13:7500
+2026-04-13T15:48:26.6392791+03:00 | Bilgi | Ham TCP bağlantı testi başarılı.
+2026-04-13T15:48:26.6537778+03:00 | Bilgi | DLL'e gönderilecek bağlantı bilgileri:
+2026-04-13T15:48:26.6561930+03:00 | Bilgi | InterfaceId: COM1, Mod: TCP, IP: 192.168.2.13, Port: 7500
+2026-04-13T15:48:26.6683089+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode: 0
+2026-04-13T15:48:26.6689796+03:00 | Bilgi | Interface XML Data: {"RetryCounter":3,"IpRetryCount":1,"AckTimeOut":1500,"CommTimeOut":10000,"InterCharacterTimeOut":100,"PortName":"\\\\.\\COM5","BaudRate":115200,"ByteSize":8,"fParity":0,"Parity":0,"StopBit":0,"IsTcpConnection":1,"IP":"192.168.2.13","Port":7500,"IsTcpKeepAlive":1}
+2026-04-13T15:48:26.6694281+03:00 | Bilgi | Mevcut Ingenico interface bulundu. Handle: 652162138
+2026-04-13T15:48:26.7936595+03:00 | Bilgi | Json_FP3_UpdateInterfaceXmlDataByID retcode: 0
+2026-04-13T15:48:26.8034101+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode after create: 0
+2026-04-13T15:48:27.5826230+03:00 | Bilgi | Json_FP3_FunctionGetHandleList retcode: 2309
+2026-04-13T15:48:27.5832692+03:00 | Bilgi | Ingenico ECHO kontrolü çalıştırılıyor.
+2026-04-13T15:48:28.3605918+03:00 | Bilgi | Json_FP3_Echo retcode: 0
+2026-04-13T15:48:28.3608314+03:00 | Bilgi | Ingenico ECHO başarılı.
+2026-04-13T15:48:28.3621636+03:00 | Bilgi | Ingenico pairing başlatma çağrısı yapılıyor.
+2026-04-13T15:48:28.3725296+03:00 | Bilgi | Json_FP3_StartPairingInit request: {"szProcOrderNumber":"000001","szProcDate":"260413","szProcTime":"154828","szExternalDeviceBrand":"WORLDLINE","szExternalDeviceModel":"IWE280","szExternalDeviceSerialNumber":"12344567","szEcrSerialNumber":"JHWE20000079"}
+2026-04-13T15:48:28.3730109+03:00 | Bilgi | Json_FP3_StartPairingInit çağrılıyor. Cihazın pairing durumunu otomatik tamamlaması bekleniyor...
+2026-04-13T15:48:33.2745313+03:00 | Bilgi | Json_FP3_StartPairingInit retcode: 0
+2026-04-13T15:48:33.2762559+03:00 | Bilgi | Json_FP3_StartPairingInit response: {"ErrorCode":0,"szEcrBrand":"INGENICO       ","szEcrModel":"TEB337         ","szEcrSerialNumber":"2C52126162","szVersionNumber":"20010100","szNewVersionNumber":"21711225","szHashFirstDate":"20181129","szHashLastDate":"20301129","szHashExpireDate":"20500101"}
+2026-04-13T15:48:34.4532645+03:00 | Bilgi | Json_FP3_GetTaxRates_Ex retcode: 0, Offset: 0, Received: 8, Total: 8
+2026-04-13T15:48:36.9103082+03:00 | Bilgi | Json_FP3_GetDepartments_Ex retcode: 0, Offset: 0, Received: 12, Total: 12
+2026-04-13T15:48:38.9379050+03:00 | Bilgi | Json_FP3_GetCurrencyProfile retcode: 0
+2026-04-13T15:48:39.6708708+03:00 | Bilgi | FP3_GetCurrentHandle retcode: 2341
+2026-04-13T15:48:39.6714322+03:00 | Bilgi | Pairing başlatma sinyali cihaza gönderildi.
+2026-04-13T15:48:39.6734737+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: precheck
+2026-04-13T15:48:39.6756202+03:00 | Bilgi | Ingenico açılış ön kontrolü başlatıldı.
+2026-04-13T15:48:39.6758309+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 192.168.2.13, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:48:39.6760105+03:00 | Bilgi | TCP Probe başlatılıyor: 192.168.2.13:7500
+2026-04-13T15:48:39.6817737+03:00 | Bilgi | Ham TCP bağlantı testi başarılı.
+2026-04-13T15:48:39.6852026+03:00 | Bilgi | DLL'e gönderilecek bağlantı bilgileri:
+2026-04-13T15:48:39.6853717+03:00 | Bilgi | InterfaceId: COM1, Mod: TCP, IP: 192.168.2.13, Port: 7500
+2026-04-13T15:48:39.6907888+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode: 0
+2026-04-13T15:48:39.6917163+03:00 | Bilgi | Interface XML Data: {"RetryCounter":3,"IpRetryCount":1,"AckTimeOut":1500,"CommTimeOut":10000,"InterCharacterTimeOut":100,"PortName":"\\\\.\\COM5","BaudRate":115200,"ByteSize":8,"fParity":0,"Parity":0,"StopBit":0,"IsTcpConnection":1,"IP":"192.168.2.13","Port":7500,"IsTcpKeepAlive":1}
+2026-04-13T15:48:39.6923603+03:00 | Bilgi | Mevcut Ingenico interface bulundu. Handle: 652162138
+2026-04-13T15:48:39.8282298+03:00 | Bilgi | Json_FP3_UpdateInterfaceXmlDataByID retcode: 0
+2026-04-13T15:48:39.8383721+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode after create: 0
+2026-04-13T15:48:40.6022149+03:00 | Bilgi | Json_FP3_FunctionGetHandleList retcode: 0
+2026-04-13T15:48:40.6117274+03:00 | Bilgi | Ingenico ECHO kontrolü çalıştırılıyor.
+2026-04-13T15:48:41.3258447+03:00 | Bilgi | Json_FP3_Echo retcode: 0
+2026-04-13T15:48:41.3260575+03:00 | Bilgi | Ingenico ECHO başarılı.
+2026-04-13T15:48:41.3265578+03:00 | Bilgi | Ingenico pairing durumu kontrol ediliyor.
+2026-04-13T15:48:41.3310146+03:00 | Bilgi | FP3_IsGmpPairingDone retcode: 1
+2026-04-13T15:48:41.3311313+03:00 | Bilgi | Ingenico açılış ön kontrolü başarılı.
+2026-04-13T15:48:56.3856322+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: payment
+2026-04-13T15:48:56.4021308+03:00 | Bilgi | Ingenico ödeme akışı başlatıldı.
+2026-04-13T15:48:56.4028217+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 192.168.2.13, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:48:56.4030737+03:00 | Bilgi | TCP Probe başlatılıyor: 192.168.2.13:7500
+2026-04-13T15:48:56.4094137+03:00 | Bilgi | Ham TCP bağlantı testi başarılı.
+2026-04-13T15:48:56.4126459+03:00 | Bilgi | GMP.XML optimize ayarları uygulanıyor
+2026-04-13T15:48:56.4181773+03:00 | Bilgi | Ingenico arayüzü hazırlanıyor
+2026-04-13T15:48:56.4181843+03:00 | Bilgi | DLL'e gönderilecek bağlantı bilgileri:
+2026-04-13T15:48:56.4189508+03:00 | Bilgi | InterfaceId: COM1, Mod: TCP, IP: 192.168.2.13, Port: 7500
+2026-04-13T15:48:56.4340704+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode: 0
+2026-04-13T15:48:56.4392412+03:00 | Bilgi | Interface XML Data: {"RetryCounter":3,"IpRetryCount":1,"AckTimeOut":1500,"CommTimeOut":10000,"InterCharacterTimeOut":100,"PortName":"\\\\.\\COM5","BaudRate":115200,"ByteSize":8,"fParity":0,"Parity":0,"StopBit":0,"IsTcpConnection":1,"IP":"192.168.2.13","Port":7500,"IsTcpKeepAlive":1}
+2026-04-13T15:48:56.4405634+03:00 | Bilgi | Mevcut Ingenico interface bulundu. Handle: 652162138
+2026-04-13T15:48:56.7431658+03:00 | Bilgi | Json_FP3_UpdateInterfaceXmlDataByID retcode: 0
+2026-04-13T15:48:56.7581600+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode after create: 0
+2026-04-13T15:48:57.7619674+03:00 | Bilgi | Json_FP3_FunctionGetHandleList retcode: 0
+2026-04-13T15:48:57.7629712+03:00 | Bilgi | Ingenico ECHO kontrolü çalıştırılıyor.
+2026-04-13T15:48:57.7639179+03:00 | Bilgi | Cihaz bağlantısı ECHO ile kontrol ediliyor
+2026-04-13T15:48:58.5990340+03:00 | Bilgi | Json_FP3_Echo retcode: 0
+2026-04-13T15:48:58.5994506+03:00 | Bilgi | Ingenico ECHO başarılı.
+2026-04-13T15:48:58.5997384+03:00 | Bilgi | Mali fiş işlemi başlatılıyor
+2026-04-13T15:48:59.7734953+03:00 | Bilgi | FP3_StartEx retcode: 2449
+2026-04-13T15:48:59.7760831+03:00 | Hata | Ingenico hata: pairing
+2026-04-13T15:49:03.7639326+03:00 | Bilgi | Ingenico In-Process Task başlatılıyor. İşlem: payment
+2026-04-13T15:49:03.7691410+03:00 | Bilgi | Ingenico ödeme akışı başlatıldı.
+2026-04-13T15:49:03.7694046+03:00 | Bilgi | Bağlantı Ayarı => Mod: Tcp, InterfaceId: COM1, IP: 192.168.2.13, Port: 7500, COM: \\.\COM5, Baud: 115200
+2026-04-13T15:49:03.7696290+03:00 | Bilgi | TCP Probe başlatılıyor: 192.168.2.13:7500
+2026-04-13T15:49:03.7841171+03:00 | Bilgi | Ham TCP bağlantı testi başarılı.
+2026-04-13T15:49:03.7849920+03:00 | Bilgi | GMP.XML optimize ayarları uygulanıyor
+2026-04-13T15:49:03.7892830+03:00 | Bilgi | DLL'e gönderilecek bağlantı bilgileri:
+2026-04-13T15:49:03.7893376+03:00 | Bilgi | Ingenico arayüzü hazırlanıyor
+2026-04-13T15:49:03.7897897+03:00 | Bilgi | InterfaceId: COM1, Mod: TCP, IP: 192.168.2.13, Port: 7500
+2026-04-13T15:49:03.8000563+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode: 0
+2026-04-13T15:49:03.8011330+03:00 | Bilgi | Interface XML Data: {"RetryCounter":3,"IpRetryCount":1,"AckTimeOut":1500,"CommTimeOut":10000,"InterCharacterTimeOut":100,"PortName":"\\\\.\\COM5","BaudRate":115200,"ByteSize":8,"fParity":0,"Parity":0,"StopBit":0,"IsTcpConnection":1,"IP":"192.168.2.13","Port":7500,"IsTcpKeepAlive":1}
+2026-04-13T15:49:03.8018131+03:00 | Bilgi | Mevcut Ingenico interface bulundu. Handle: 652162138
+2026-04-13T15:49:04.0305439+03:00 | Bilgi | Json_FP3_UpdateInterfaceXmlDataByID retcode: 0
+2026-04-13T15:49:04.0452825+03:00 | Bilgi | FP3_GetInterfaceHandleByID retcode after create: 0
+2026-04-13T15:49:05.0714835+03:00 | Bilgi | Json_FP3_FunctionGetHandleList retcode: 0
+2026-04-13T15:49:05.0722976+03:00 | Bilgi | Ingenico ECHO kontrolü çalıştırılıyor.
+2026-04-13T15:49:05.0730587+03:00 | Bilgi | Cihaz bağlantısı ECHO ile kontrol ediliyor
+2026-04-13T15:49:06.0337503+03:00 | Bilgi | Json_FP3_Echo retcode: 0
+2026-04-13T15:49:06.0339980+03:00 | Bilgi | Ingenico ECHO başarılı.
+2026-04-13T15:49:06.0360111+03:00 | Bilgi | Mali fiş işlemi başlatılıyor
+2026-04-13T15:49:07.0728214+03:00 | Bilgi | FP3_StartEx retcode: 2449
+2026-04-13T15:49:07.0732004+03:00 | Hata | Ingenico hata: pairing
+2026-04-13T15:49:08.5980031+03:00 | Bilgi | Mock ödeme işlemi temizlendi

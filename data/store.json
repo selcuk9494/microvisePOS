@@ -1,0 +1,457 @@
+{
+  "tables": [
+    {
+      "name": "T01",
+      "guest": "Mustafa Bey",
+      "status": "Acik Adisyon",
+      "total": "TL1617",
+      "progress": 82,
+      "area": "Salon A",
+      "seats": 4,
+      "spend": 1617,
+      "state": "dolu"
+    },
+    {
+      "name": "T04",
+      "guest": "Aile Masasi",
+      "status": "Siparis Alindi",
+      "total": "TL1122",
+      "progress": 64,
+      "area": "Salon A",
+      "seats": 6,
+      "spend": 1122,
+      "state": "dolu"
+    },
+    {
+      "name": "T09",
+      "guest": "Rezervasyon",
+      "status": "Tatli",
+      "total": "TL470",
+      "progress": 48,
+      "area": "Teras",
+      "seats": 2,
+      "spend": 470,
+      "state": "rezerve"
+    },
+    {
+      "name": "B02",
+      "guest": "Bar",
+      "status": "Ikinci tur",
+      "total": "TL520",
+      "progress": 58,
+      "area": "Bar",
+      "seats": 3,
+      "spend": 520,
+      "state": "dolu"
+    },
+    {
+      "name": "T11",
+      "guest": "Musait",
+      "status": "Hazir",
+      "total": "TL0",
+      "progress": 0,
+      "area": "Teras",
+      "seats": 4,
+      "spend": 0,
+      "state": "musait"
+    },
+    {
+      "name": "T15",
+      "guest": "Kurumsal Grup",
+      "status": "Aperatif",
+      "total": "TL2.180",
+      "progress": 36,
+      "area": "VIP",
+      "seats": 8,
+      "spend": 2180,
+      "state": "dolu"
+    }
+  ],
+  "menuProducts": [
+    {
+      "id": 1,
+      "name": "Truflu Patates",
+      "category": "Baslangic",
+      "price": 190,
+      "prep": "6 dk",
+      "tag": "Hizli"
+    },
+    {
+      "id": 2,
+      "name": "Dana Carpaccio",
+      "category": "Baslangic",
+      "price": 260,
+      "prep": "8 dk",
+      "tag": "Imza"
+    },
+    {
+      "id": 3,
+      "name": "Special Burger",
+      "category": "Ana Yemek",
+      "price": 390,
+      "prep": "12 dk",
+      "tag": "Populer"
+    },
+    {
+      "id": 4,
+      "name": "Izgara Somon",
+      "category": "Ana Yemek",
+      "price": 520,
+      "prep": "14 dk",
+      "tag": "Premium"
+    },
+    {
+      "id": 5,
+      "name": "Margarita Pizza",
+      "category": "Pizza",
+      "price": 320,
+      "prep": "10 dk",
+      "tag": "Klasik"
+    },
+    {
+      "id": 6,
+      "name": "Prosciutto Pizza",
+      "category": "Pizza",
+      "price": 420,
+      "prep": "11 dk",
+      "tag": "Yeni"
+    },
+    {
+      "id": 7,
+      "name": "Cold Brew",
+      "category": "Icecek",
+      "price": 120,
+      "prep": "3 dk",
+      "tag": "Serin"
+    },
+    {
+      "id": 8,
+      "name": "Limonata",
+      "category": "Icecek",
+      "price": 95,
+      "prep": "2 dk",
+      "tag": "Ferah"
+    },
+    {
+      "id": 9,
+      "name": "San Sebastian",
+      "category": "Tatli",
+      "price": 210,
+      "prep": "4 dk",
+      "tag": "Cok Satan"
+    }
+  ],
+  "kitchenTickets": [
+    {
+      "id": "K-108",
+      "table": "T04",
+      "guest": "Yeni Misafir",
+      "lane": "yeni",
+      "minutes": 0,
+      "items": [
+        "2x Special Burger",
+        "2x Cold Brew"
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "K-107",
+      "table": "T04",
+      "guest": "Yeni Misafir",
+      "lane": "yeni",
+      "minutes": 0,
+      "items": [
+        "1x Special Burger"
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "K-104",
+      "table": "T01",
+      "guest": "Mustafa Bey",
+      "lane": "yeni",
+      "minutes": 2,
+      "items": [
+        "1x Izgara Somon",
+        "2x Cold Brew"
+      ],
+      "priority": "yuksek"
+    },
+    {
+      "id": "K-105",
+      "table": "P-22",
+      "guest": "Getir",
+      "lane": "yeni",
+      "minutes": 4,
+      "items": [
+        "2x Special Burger",
+        "1x Truflu Patates"
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "K-101",
+      "table": "T04",
+      "guest": "Aile Masasi",
+      "lane": "hazirlaniyor",
+      "minutes": 10,
+      "items": [
+        "1x Margarita Pizza",
+        "1x Prosciutto Pizza"
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "K-099",
+      "table": "B02",
+      "guest": "Bar",
+      "lane": "hazirlaniyor",
+      "minutes": 7,
+      "items": [
+        "3x Cold Brew",
+        "1x San Sebastian"
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "K-093",
+      "table": "T09",
+      "guest": "Rezervasyon",
+      "lane": "hazir",
+      "minutes": 13,
+      "items": [
+        "2x Dana Carpaccio",
+        "2x Limonata"
+      ],
+      "priority": "yuksek"
+    },
+    {
+      "id": "K-084",
+      "table": "P-19",
+      "guest": "Yemeksepeti",
+      "lane": "tamamlandi",
+      "minutes": 16,
+      "items": [
+        "1x Special Burger",
+        "1x Limonata"
+      ],
+      "priority": "normal"
+    }
+  ],
+  "deliveryOrders": [
+    {
+      "id": "PK-201",
+      "channel": "Getir",
+      "customer": "Seda Y.",
+      "zone": "Moda",
+      "total": "TL640",
+      "eta": "18 dk",
+      "courier": "Fiyuu / Arda",
+      "status": "hazirlaniyor"
+    },
+    {
+      "id": "PK-202",
+      "channel": "Telefon",
+      "customer": "Can K.",
+      "zone": "Fenerbahce",
+      "total": "TL390",
+      "eta": "25 dk",
+      "courier": "Mert A.",
+      "status": "kurye-atandi"
+    },
+    {
+      "id": "PK-203",
+      "channel": "Trendyol",
+      "customer": "Burcu A.",
+      "zone": "Goztepe",
+      "total": "TL820",
+      "eta": "11 dk",
+      "courier": "Paket Taksi",
+      "status": "yolda"
+    },
+    {
+      "id": "PK-204",
+      "channel": "Web",
+      "customer": "Emre T.",
+      "zone": "Caddebostan",
+      "total": "TL510",
+      "eta": "Tamamlandi",
+      "courier": "Deniz C.",
+      "status": "teslim"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "R-301",
+      "name": "Nehir Demir",
+      "guests": 4,
+      "time": "19:30",
+      "area": "Teras",
+      "phone": "0532 000 00 01",
+      "note": "Dogum gunu pastasi hazir olsun",
+      "status": "onaylandi"
+    },
+    {
+      "id": "R-302",
+      "name": "Atlas Medya",
+      "guests": 8,
+      "time": "20:00",
+      "area": "VIP",
+      "phone": "0532 000 00 02",
+      "note": "Kurumsal yemek, sessiz alan talebi",
+      "status": "bekliyor"
+    },
+    {
+      "id": "R-303",
+      "name": "Esra Kaya",
+      "guests": 2,
+      "time": "20:15",
+      "area": "Salon A",
+      "phone": "0532 000 00 03",
+      "note": "Cam kenari tercih edildi",
+      "status": "geldi"
+    },
+    {
+      "id": "R-304",
+      "name": "Murat Alp",
+      "guests": 6,
+      "time": "21:00",
+      "area": "Teras",
+      "phone": "0532 000 00 04",
+      "note": "Cocuk sandalyesi gerekiyor",
+      "status": "onaylandi"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ADS-1005",
+      "table": "T01",
+      "status": "acik",
+      "payment": "bekliyor",
+      "items": [
+        {
+          "id": 3,
+          "name": "Special Burger",
+          "qty": 2,
+          "price": 390,
+          "note": "Bir tanesi acisiz"
+        },
+        {
+          "id": 7,
+          "name": "Cold Brew",
+          "qty": 2,
+          "price": 120
+        },
+        {
+          "id": 1,
+          "name": "Truflu Patates",
+          "qty": 1,
+          "price": 190
+        },
+        {
+          "id": 2,
+          "name": "Dana Carpaccio",
+          "qty": 1,
+          "price": 260
+        }
+      ],
+      "subtotal": 1470,
+      "service": 147,
+      "total": 1617,
+      "createdAt": "2026-05-02T19:02:21.734Z"
+    },
+    {
+      "id": "ADS-1004",
+      "table": "T04",
+      "status": "mutfaga-gonderildi",
+      "payment": "bekliyor",
+      "items": [
+        {
+          "id": 3,
+          "name": "Special Burger",
+          "qty": 2,
+          "price": 390,
+          "note": "Bir tanesi acisiz"
+        },
+        {
+          "id": 7,
+          "name": "Cold Brew",
+          "qty": 2,
+          "price": 120
+        }
+      ],
+      "subtotal": 1020,
+      "service": 102,
+      "total": 1122,
+      "createdAt": "2026-05-02T18:51:48.793Z"
+    },
+    {
+      "id": "ADS-1003",
+      "table": "T01",
+      "status": "acik",
+      "payment": "bekliyor",
+      "items": [
+        {
+          "id": 3,
+          "name": "Special Burger",
+          "qty": 2,
+          "price": 390,
+          "note": "Bir tanesi acisiz"
+        },
+        {
+          "id": 7,
+          "name": "Cold Brew",
+          "qty": 2,
+          "price": 120
+        }
+      ],
+      "subtotal": 1020,
+      "service": 102,
+      "total": 1122,
+      "createdAt": "2026-05-02T18:51:42.044Z"
+    },
+    {
+      "id": "ADS-1002",
+      "table": "T04",
+      "status": "mutfaga-gonderildi",
+      "payment": "bekliyor",
+      "items": [
+        {
+          "id": 3,
+          "name": "Special Burger",
+          "qty": 1,
+          "price": 390
+        }
+      ],
+      "subtotal": 390,
+      "service": 39,
+      "total": 429,
+      "createdAt": "2026-05-02T18:36:42.351Z"
+    },
+    {
+      "id": "ADS-1001",
+      "table": "T01",
+      "status": "mutfaga-gonderildi",
+      "payment": "bekliyor",
+      "items": [
+        {
+          "id": 3,
+          "name": "Special Burger",
+          "qty": 2,
+          "price": 390,
+          "note": "Bir tanesi acisiz"
+        },
+        {
+          "id": 7,
+          "name": "Cold Brew",
+          "qty": 2,
+          "price": 120
+        }
+      ],
+      "subtotal": 1020,
+      "service": 102,
+      "total": 1122,
+      "createdAt": "2026-05-02T18:28:19.322Z"
+    }
+  ]
+}
